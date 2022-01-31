@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CrystalUi</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <div class="vc-site-container">
-      <nav class="vc-d-flex">
-        <h2 class="vc-md-title">CrystalUi</h2>
-        <ul class="vs-nav-links vc-d-flex">
-          <li>
-            <a href="/components/avatar/avatar.html" class="vc-link vc-sm-title"
-              >Docs</a
-            >
-          </li>
-          <li><a href="" class="vc-link vc-sm-title">Supports</a></li>
-          <li><a href="" class="vc-link vc-sm-title">GitHub</a></li>
-        </ul>
+    <header class="nav-container">
+      <nav class="navbar">
+        <span class="nav-logo">CrystalUi</span>
+        <div class="nav-div">
+          <ul class="nav-links">
+            <li><a href="#" class="link">Docs</a></li>
+            <li><a href="#" class="link">Examples</a></li>
+            <li><a href="#" class="link">GitHub</a></li>
+          </ul>
+          <div class="dark-light">
+            <span class="material-icons sun">wb_sunny</span>
+            <span class="material-icons moon">dark_mode</span>
+          </div>
+        </div>
       </nav>
-      <section class="vc-landing-page vc-d-flex">
-        <img src="./svg/logo.svg" alt="" width="100px" />
-        <h1 class="vc-lg-title">CRYSTAL Ui</h1>
-        <p>CrystalUi is elegant, fast and free to use CSS library.</p>
-
-        <a href="/components/avatar/avatar.html" class="get-started"
-          >GETTING STARTED</a
-        >
-      </section>
-    </div>
+    </header>
+    <main class="main">
+      <img src="./svg/logo.svg" alt="snowflake" class="main-logo" />
+      <h1>CRYSTAL Ui</h1>
+      <p>CrystalUi is elegant, fast and free to use CSS library.</p>
+      <a href="/component.html" class="get-started">GET STARTED</a>
+    </main>
+    <!-- <footer>
+      <p>Made with ❄️ By <a href="#">Miheer</a></p>
+    </footer> -->
+    <script src="./script.js"></script>
   </body>
 </html>
