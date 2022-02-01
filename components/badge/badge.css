@@ -3,7 +3,8 @@
 .basic-badge {
   max-width: max-content;
   position: relative;
-  padding: 0.4rem 0.4rem 0 0.4rem;
+  /* padding: 0.4rem 0.4rem 0 0.4rem; */
+  padding: 0.4rem;
 }
 
 .badge-pop {
@@ -11,7 +12,7 @@
   font-size: 1rem;
   top: 0px;
   right: 0px;
-  padding: 0 0.3em;
+  padding: 0 0.4rem;
   border-radius: 50%;
   background: var(--blue-300);
   color: var(--gray-500);
@@ -19,7 +20,8 @@
 .large-badge {
   max-width: max-content;
   position: relative;
-  padding: 1rem 1rem 0 1rem;
+  /* padding: 0.5rem 0.5rem 0 0.5rem; */
+  padding: 0.5rem;
 }
 .large-pop {
   position: absolute;
