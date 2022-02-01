@@ -12,7 +12,7 @@ darkLight.addEventListener("click", () => {
 });
 
 hamburger.addEventListener("click", () => {
-  sidebar.classList.toggle("ham-active");
+  sidebar.classList.add("ham-active");
 });
 closeBtn.addEventListener("click", () => {
   sidebar.classList.remove("ham-active");
