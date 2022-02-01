@@ -47,7 +47,7 @@
           <ul class="comp-list">
             <li><a class="link" href="#avatar">Avatar</a></li>
             <li><a class="link" href="#alert">Alert</a></li>
-            <li><a class="link" href="">Badge</a></li>
+            <li><a class="link" href="#badge">Badge</a></li>
             <li><a class="link" href="">Button</a></li>
             <li><a class="link" href="">Input</a></li>
             <li><a class="link" href="">Image</a></li>
@@ -197,9 +197,10 @@
             </div>
           </div>
         </section>
+
         <section class="comp-container">
           <div class="comp-type">
-            <h2 class="comp-title" id="avatar">Alert</h2>
+            <h2 class="comp-title" id="alert">Alert</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
               hic quibusdam repudiandae consequatur quas sit, labore, ad porro
@@ -406,6 +407,7 @@
               </iframe>
             </div>
           </div>
+
           <div class="comp-type">
             <h2 class="comp-title" id="badge">Badge on Button</h2>
             <p>
@@ -413,18 +415,46 @@
               facere alias necessitatibus.
             </p>
             <div class="comp-demo">
-              <div class="large-badge">
-                <img src="/assests/svg/mail.svg" alt="mail" />
-                <span class="large-pop">4</span>
-              </div>
-              <div class="large-badge">
-                <img src="/assests/svg/favorite.svg" alt="favorite" />
-                <span class="large-pop ct-red">4</span>
+              <div class="basic-badge">
+                <button class="btn-badge">Action</button>
+                <span class="badge-pop">4</span>
               </div>
             </div>
             <div class="comp-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522large-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522mail%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522large-pop%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522large-badge%2522%253Ev%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522favorite%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522large-pop%2520ct-red%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A"
+                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%250A%2520%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253EAction%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522badge-pop%2522%253E4%253C%252Fspan%253E%2520%2520%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 165px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="comp-type">
+            <h2 class="comp-title" id="badge">Badge on Avatar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              facere alias necessitatibus.
+            </p>
+            <div class="comp-demo">
+              <div class="basic-badge">
+                <img src="./assests/images/pic2.jpg" alt="" class="ct-lg" />
+                <span class="plane-badge"></span>
+              </div>
+              <div class="basic-badge">
+                <img src="./assests/svg/fallback.svg" alt="" class="ct-lg" />
+                <span class="plane-badge"></span>
+              </div>
+            </div>
+            <div class="comp-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520class%253D%2522ct-lg%2522%2520%252F%253E%250A%2520%253Cspan%2520class%253D%2522plane-badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520class%253D%2522ct-lg%2522%2520%252F%253E%2520%2520%2520%2520%2520%250A%253Cspan%2520class%253D%2522plane-badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A"
                 style="
                   width: 100%;
                   height: 165px;
