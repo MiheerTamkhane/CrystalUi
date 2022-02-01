@@ -12,12 +12,12 @@
 
 .sidebar {
   position: fixed;
-  width: 220px;
+  width: 240px;
   padding: 1rem;
   cursor: pointer;
   overflow: scroll;
   overflow-x: hidden;
-  max-height: 100vh;
+  max-height: 90vh;
 }
 .sidebar .close-btn {
   display: none;
@@ -35,22 +35,19 @@
   cursor: pointer;
 }
 .comp-list > * {
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .comp-docs {
   position: absolute;
   padding: 2rem;
-  left: 240px;
+  left: 250px;
 }
 .comp-type {
-  padding-bottom: 1.2rem;
-  border-bottom: 1px solid black;
-}
-.comp {
   padding-bottom: 2rem;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--text);
 }
+
 .comp-title {
   margin: 1rem 0;
 }
