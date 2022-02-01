@@ -38,6 +38,10 @@
   padding: 0.8rem;
 }
 
+.comp-container {
+  margin-top: 12rem;
+}
+
 .comp-docs {
   position: absolute;
   padding: 2rem;
@@ -53,6 +57,7 @@
 }
 
 .comp-demo {
+  width: 100%;
   padding: 2rem;
   margin: 2rem 0;
   border: 1px solid var(--text);
