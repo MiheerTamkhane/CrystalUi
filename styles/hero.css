@@ -43,6 +43,33 @@
   padding: 2rem;
   left: 240px;
 }
+.comp-type {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid black;
+}
+.comp {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+.comp-title {
+  margin: 1rem 0;
+}
+
+.comp-demo {
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.comp-code iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
 @media only screen and (max-width: 615px) {
   .sidebar {
