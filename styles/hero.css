@@ -21,6 +21,7 @@
 }
 .sidebar .close-btn {
   display: none;
+  color: var(--primary);
 }
 
 .side-div {

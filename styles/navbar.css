@@ -98,7 +98,6 @@
     padding: 0 1rem;
     min-width: 300px;
     max-width: 100vw;
-
     align-items: center;
     justify-content: space-between;
   }
@@ -107,14 +106,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 1.6rem;
+  }
+  .hamburger-div > * {
+    padding: 0.5rem;
   }
   .hamburger-div .hamburger {
     font-size: 4.6rem;
-    color: var(--text);
+    color: var(--primary);
   }
-
   .nav-div ul {
     display: none;
+  }
+  .github {
+    padding: 0.8rem;
   }
 }

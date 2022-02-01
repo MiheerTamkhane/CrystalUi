@@ -28,7 +28,7 @@ body.dark {
 }
 
 /* Works on Firefox */
-body {
+* {
   scrollbar-width: thin;
   scrollbar-color: var(--primary) var(--heading);
 }
@@ -45,13 +45,3 @@ body {
 *::-webkit-scrollbar-thumb {
   background-color: var(--primary);
 }
-
-/* body::-webkit-scrollbar {
-  width: 1rem;
-}
-body::-webkit-scrollbar-track {
-  background: var(--heading);
-}
-body::-webkit-scrollbar-thumb {
-  background: var(--primary);
-} */
