@@ -35,7 +35,10 @@ body.dark {
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
+}
+body::-webkit-scrollbar {
+  width: 12px;
 }
 
 *::-webkit-scrollbar-track {

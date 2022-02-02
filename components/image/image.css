@@ -1,0 +1,30 @@
+@import url("/components/root.css");
+
+.ct-img-sm {
+  width: 96px;
+  height: 96px;
+}
+.ct-img-md {
+  width: 128px;
+  height: 128px;
+}
+.ct-img-lg {
+  width: 192px;
+  height: 192px;
+}
+.ct-img-round {
+  border-radius: 50%;
+}
+
+/* Auto resize image to fit parent div css  */
+
+.ct-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.ct-landing-div {
+  max-height: 400px;
+  max-width: 400px;
+}
