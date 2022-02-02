@@ -13,18 +13,6 @@ input.ct-input {
   outline: none;
 }
 
-.ct-base-bd {
-  padding: 0.6rem;
-  border: none;
-  border-bottom: 1px solid var(--blue-500);
-  outline: none;
-}
-.ct-unstyle {
-  padding: 0.6rem;
-  border: none;
-  outline-color: var(--blue-500);
-}
-
 .ct-input-error {
   display: flex;
   align-items: center;
@@ -73,7 +61,7 @@ input.ct-input {
   color: var(--text);
 }
 .ct-form > * {
-  margin: 0.8rem 0rem;
+  margin: 1rem 0rem;
 }
 
 .ct-form-btn {
