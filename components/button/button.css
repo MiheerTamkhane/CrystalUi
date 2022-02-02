@@ -1,0 +1,134 @@
+@import url("/components/root.css");
+.ct-btn {
+  border: none;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  background: var(--body);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+/* Default buttons styles  */
+.ct-btn.ct-red {
+  background: var(--red-500);
+  color: var(--body);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-red:hover {
+  background: var(--red-700);
+  color: #fff;
+}
+.ct-btn.ct-blue {
+  background: var(--blue-500);
+  color: var(--body);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-blue:hover {
+  background: var(--blue-700);
+  color: #fff;
+}
+.ct-btn.ct-green {
+  background: var(--green-500);
+  color: var(--body);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-green:hover {
+  background: var(--green-700);
+  color: #fff;
+}
+.ct-btn.ct-gray {
+  background: var(--gray-500);
+  color: var(--body);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-gray:hover {
+  background: var(--gray-700);
+  color: #fff;
+}
+
+/* outerline buttons styles  */
+.ct-btn.ct-red-bd {
+  border: 1px solid var(--red-300);
+  color: var(--text);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-red-bd:hover {
+  border: 1px solid var(--red-500);
+  color: var(--heading);
+}
+.ct-btn.ct-blue-bd {
+  border: 1px solid var(--blue-300);
+  color: var(--text);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-blue-bd:hover {
+  border: 1px solid var(--blue-500);
+  color: var(--heading);
+}
+.ct-btn.ct-green-bd {
+  border: 1px solid var(--green-300);
+  color: var(--text);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-green-bd:hover {
+  border: 1px solid var(--green-500);
+  color: var(--heading);
+}
+.ct-btn.ct-gray-bd {
+  border: 1px solid var(--gray-300);
+  color: var(--text);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-gray-bd:hover {
+  border: 1px solid var(--gray-500);
+  color: var(--heading);
+}
+
+/* E-commerce buttons  */
+
+.ct-btn.ct-addcart {
+  border: 1px solid var(--orange-300);
+  color: var(--orange-500);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-addcart:hover {
+  border: 1px solid var(--orange-500);
+}
+.ct-btn.ct-wishlist {
+  border: 1px solid var(--red-300);
+  color: var(--red-500);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-wishlist:hover {
+  border: 1px solid var(--red-500);
+}
+.ct-btn.ct-pay {
+  border: 1px solid var(--green-300);
+  color: var(--green-500);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-pay:hover {
+  border: 1px solid var(--green-500);
+}
+.ct-btn.ct-store {
+  border: 1px solid var(--blue-300);
+  color: var(--blue-500);
+  transition: all 250ms ease;
+}
+.ct-btn.ct-store:hover {
+  border: 1px solid var(--blue-500);
+}
+
+/* Floating buttons  */
+.ct-float {
+  border-radius: 50%;
+  padding: 1rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all 250ms ease;
+  color: var(--gray-700);
+  background: var(--gray-300);
+}
+.ct-float:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
