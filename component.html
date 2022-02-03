@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark-reasonable.min.css"
+    />
     <title>CrystalUi</title>
+
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
@@ -66,96 +71,53 @@
           <div class="comp-type">
             <h2 class="comp-title" id="avatar">Avatar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              The <code>Avatar</code> component is used to represent a user, and
+              displays the profile picture, we have avatar in different sizes
+              and shapes. You have to add <code>ct-avatar</code> class in
+              <code> img </code>tag to use it as avatar. By default the avatar
+              size is 32px.
             </p>
           </div>
-          <div class="comp-type">
-            <h2 class="comp-title">Round Avatar</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
-            </p>
-            <div class="comp-demo">
-              <img
-                class="ct-round ct-sm"
-                src="./assests/images/pic1.jpg"
-                alt=""
-              />
-              <img
-                class="ct-round ct-sm"
-                src="./assests/images/pic2.jpg"
-                alt=""
-              />
-              <img
-                class="ct-round ct-sm"
-                src="./assests/images/pic3.jpg"
-                alt=""
-              />
-              <img
-                class="ct-round ct-sm"
-                src="./assests/images/pic4.jpg"
-                alt=""
-              />
-            </div>
-            <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522ct-round%2520ct-sm%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-round%2520ct-sm%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 136px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-              >
-              </iframe>
-            </div>
-          </div>
+
           <div class="comp-type">
             <h2 class="comp-title">Round Avatar Sizes</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              You have to apply <code>ct-avatar, ct-round</code> class to use
+              round avatar, which has four different sizes
+              <code
+                >ct-sm | 32px, ct-md | 40px, ct-lg | 64px, ct-xlg | 96px</code
+              >
             </p>
             <div class="comp-demo">
               <img
-                class="ct-round ct-sm"
+                class="ct-avatar ct-round ct-sm"
                 src="./assests/images/pic1.jpg"
-                alt=""
+                alt="avatar"
               />
               <img
-                class="ct-round ct-md"
+                class="ct-avatar ct-round ct-md"
                 src="./assests/images/pic2.jpg"
-                alt=""
+                alt="avatar"
               />
               <img
-                class="ct-round ct-lg"
+                class="ct-avatar ct-round ct-lg"
                 src="./assests/images/pic3.jpg"
-                alt=""
+                alt="avatar"
               />
               <img
-                class="ct-round ct-xlg"
+                class="ct-avatar ct-round ct-xlg"
                 src="./assests/images/pic4.jpg"
-                alt=""
+                alt="avatar"
               />
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522ct-round%2520ct-sm%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-round%2520ct-md%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-round%2520ct-lg%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-round%2520ct-xlg%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;img class="ct-avatar ct-round ct-sm" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-round ct-md" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-round ct-lg" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-round ct-xlg" src="image-url" alt="avatar"/&gt;
+
+</code></pre>
             </div>
           </div>
           <div class="comp-type">
@@ -201,6 +163,45 @@
               >
               </iframe>
             </div>
+          </div>
+
+          <div class="comp-type">
+            <h2 class="comp-title">Fallback Avatar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
+              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
+              quia ducimus dignissimos a?
+            </p>
+            <div class="comp-demo">
+              <img
+                class="ct-round ct-sm"
+                src="./assests/svg/fallback.svg"
+                alt="fallback"
+              />
+              <img
+                class="ct-round ct-md"
+                src="./assests/svg/fallback.svg"
+                alt="fallback"
+              />
+              <img
+                class="ct-round ct-lg"
+                src="./assests/svg/fallback.svg"
+                alt="fallback"
+              />
+              <img
+                class="ct-round ct-xlg"
+                src="./assests/svg/fallback.svg"
+                alt="fallback"
+              />
+            </div>
+            <!-- <div class="comp-code code">
+              <pre><code >
+                &lt;img class="ct-square ct-sm" src="image-url" alt="" /&gt;
+                &lt;img class="ct-square ct-md" src="image-url" alt="" /&gt;
+                &lt;img class="ct-square ct-lg" src="image-url" alt="" /&gt;
+                &lt;img class="ct-square ct-xlg" src="image-url" alt="" &gt;>       
+            </code></pre>
+            </div> -->
           </div>
         </section>
 
@@ -1175,7 +1176,10 @@
         </section>
       </section>
     </main>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>

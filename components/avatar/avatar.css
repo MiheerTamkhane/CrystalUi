@@ -1,6 +1,11 @@
 @import url("/components/root.css");
 
 /* ct-round class makes img round  */
+.ct-avatar {
+  width: 32px;
+  height: 32px;
+}
+
 .ct-round {
   object-fit: cover;
   border-radius: 50%;
@@ -26,11 +31,4 @@
 .ct-xlg {
   width: 96px;
   height: 96px;
-}
-.ct-fail-avatar {
-  background-color: var(--primary);
-  /* border-radius: 50%; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

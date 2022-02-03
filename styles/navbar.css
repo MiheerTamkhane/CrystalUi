@@ -93,7 +93,7 @@
   font-size: 3.6rem;
   color: #f7f7f7;
 }
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 800px) {
   .nav-container .navbar {
     padding: 0 1rem;
     min-width: 300px;
