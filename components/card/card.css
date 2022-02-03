@@ -70,8 +70,8 @@
   padding: 1rem;
   display: flex;
   align-items: center;
-  max-width: 40rem;
-  max-height: 20rem;
+  flex-wrap: wrap;
+  max-width: 30rem;
   text-decoration: none;
   background: var(--body);
   color: var(--text);
@@ -87,6 +87,7 @@
   top: 1rem;
   color: var(--text);
 }
+
 .wishlist-btn {
   color: var(--red-500);
 }
