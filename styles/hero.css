@@ -76,8 +76,7 @@
   white-space: pre-wrap;
   word-wrap: break-word;
   line-height: 1.6;
-  max-width: fit-content;
-  height: 100%;
+  max-width: max-content;
 }
 code {
   color: var(--primary);
@@ -85,7 +84,7 @@ code {
 .comp-code code {
   font-size: 1.6rem;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 928px) {
   .sidebar {
     right: -250px;
     transition: all 250ms ease;
@@ -99,7 +98,6 @@ code {
     z-index: 3;
     text-align: center;
     min-height: 100%;
-    /* transition: all 250ms ease; */
   }
 
   .sidebar .close-btn {
