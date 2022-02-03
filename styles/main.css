@@ -33,7 +33,7 @@
   font-size: 1.6rem;
   font-weight: bold;
   cursor: pointer;
-  /* transition: all 250ms ease; */
+  transition: all 250ms ease;
   font-family: "acumin-pro", sans-serif;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
