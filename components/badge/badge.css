@@ -45,11 +45,6 @@
   color: var(--green-700);
 }
 
-.titled-badge {
-  font-size: 12px;
-  padding: 0.1rem 0.4rem;
-  font-weight: bold;
-}
 .btn-badge {
   border: none;
   padding: 0.5rem 1.2rem;

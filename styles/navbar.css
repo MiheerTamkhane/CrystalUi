@@ -46,6 +46,7 @@
   text-decoration: none;
   padding: 0rem 1.2rem;
   color: var(--text);
+  transition: all 250ms ease;
 }
 
 .link:hover {

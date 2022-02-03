@@ -23,7 +23,14 @@
           <ul class="nav-links">
             <li><a href="#" class="link">Docs</a></li>
             <li><a href="#" class="link">Examples</a></li>
-            <li><a href="#" class="link">GitHub</a></li>
+            <li>
+              <a
+                href="https://github.com/MiheerTamkhane/CrystalUi/tree/main"
+                target="_blank"
+                class="link"
+                >GitHub</a
+              >
+            </li>
           </ul>
           <div class="dark-light">
             <span class="material-icons sun">wb_sunny</span>
@@ -47,7 +54,7 @@
         <div class="side-div">
           <h2>Get Started</h2>
           <ul class="comp-list">
-            <li><a class="link" href="#intro">Introduction</a></li>
+            <li><a class="link" href="">Introduction</a></li>
             <li><a class="link" href="">Typography</a></li>
             <li><a class="link" href="">Color</a></li>
             <li><a class="link" href="">Nothing</a></li>
@@ -86,7 +93,7 @@
               round avatar, which has four different sizes
               <code
                 >ct-sm | 32px, ct-md | 40px, ct-lg | 64px, ct-xlg | 96px</code
-              >
+              >.
             </p>
             <div class="comp-demo">
               <img
@@ -120,88 +127,81 @@
 </code></pre>
             </div>
           </div>
+
           <div class="comp-type">
             <h2 class="comp-title">Squared Avatar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              Use <code>ct-square</code> class to add Squared avatar. Which also
+              has all the four sizes.
             </p>
             <div class="comp-demo">
               <img
-                class="ct-square ct-sm"
+                class="ct-avatar ct-square ct-sm"
                 src="./assests/images/pic1.jpg"
                 alt=""
               />
               <img
-                class="ct-square ct-md"
+                class="ct-avatar ct-square ct-md"
                 src="./assests/images/pic2.jpg"
                 alt=""
               />
               <img
-                class="ct-square ct-lg"
+                class="ct-avatar ct-square ct-lg"
                 src="./assests/images/pic3.jpg"
                 alt=""
               />
               <img
-                class="ct-square ct-xlg"
+                class="ct-avatar ct-square ct-xlg"
                 src="./assests/images/pic4.jpg"
                 alt=""
               />
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522ct-square%2520ct-sm%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-square%2520ct-md%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-square%2520ct-lg%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522ct-square%2520ct-xlg%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;img class="ct-avatar ct-square ct-sm" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-square ct-md" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-square ct-lg" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-avatar ct-square ct-xlg" src="image-url" alt="avatar"/&gt;
+   </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title">Fallback Avatar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              You can use fallback avatar if the user has not given any image or
+              removed it. put <code>ct-fallback</code>.
             </p>
             <div class="comp-demo">
               <img
-                class="ct-round ct-sm"
+                class="ct-fallback ct-sm"
                 src="./assests/svg/fallback.svg"
                 alt="fallback"
               />
               <img
-                class="ct-round ct-md"
+                class="ct-fallback ct-md"
                 src="./assests/svg/fallback.svg"
                 alt="fallback"
               />
               <img
-                class="ct-round ct-lg"
+                class="ct-fallback ct-lg"
                 src="./assests/svg/fallback.svg"
                 alt="fallback"
               />
               <img
-                class="ct-round ct-xlg"
+                class="ct-fallback ct-xlg"
                 src="./assests/svg/fallback.svg"
                 alt="fallback"
               />
             </div>
-            <!-- <div class="comp-code code">
-              <pre><code >
-                &lt;img class="ct-square ct-sm" src="image-url" alt="" /&gt;
-                &lt;img class="ct-square ct-md" src="image-url" alt="" /&gt;
-                &lt;img class="ct-square ct-lg" src="image-url" alt="" /&gt;
-                &lt;img class="ct-square ct-xlg" src="image-url" alt="" &gt;>       
-            </code></pre>
-            </div> -->
+            <div class="comp-code">
+              <pre><code class="html">
+&lt;img class="ct-fallback ct-sm" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-fallback ct-md" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-fallback ct-lg" src="image-url" alt="avatar"/&gt;
+&lt;img class="ct-fallback ct-xlg" src="image-url" alt="avatar"/&gt;
+   </code></pre>
+            </div>
           </div>
         </section>
 
@@ -209,16 +209,19 @@
           <div class="comp-type">
             <h2 class="comp-title" id="alert">Alert</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              Alerts are use to show a state to user that something affected to
+              a system, feature or page. We have four types of alerts with icons
+              and button, which can you use adding class
+              <code>ct-alert</code> in it.
             </p>
           </div>
+
           <div class="comp-type">
-            <h2 class="comp-title" id="alert">Status Alert</h2>
+            <h2 class="comp-title">Status Alert</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut
-              doloribus in?
+              Use <code>ct-error</code> for Error alert,
+              <code>ct-update</code> for success, <code>ct-report</code> for
+              report, <code>ct-info</code> for information.
             </p>
             <div class="comp-demo">
               <div>
@@ -241,25 +244,24 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-error%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eerror%253C%252Fspan%253E%250A%2520%2520There%2520was%2520an%2520error%2520processing%2520your%2520request%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-update%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Echeck_circle%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520Data%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-report%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ereport%253C%252Fspan%253E%250A%2520%2520%2520Seems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-info%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Elightbulb%253C%252Fspan%253E%250A%2520%2520%2520Mangalyaan%2520is%2520going%2520live%2520on%25205%2520November%25202013.%2520Get%2520ready%21%2520%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-error ct-alert"&gt; &lt;span class="material-icons"&gt; error &lt;/span&gt;
+There was an error processing your request &lt;/div&gt;
+&lt;div class="ct-update ct-alert"&gt; &lt;span class="material-icons"&gt; check_circle &lt;/span&gt;
+Data uploaded to the server. Fire on! &lt;/div&gt;
+&lt;div class="ct-report ct-alert"&gt; &lt;span class="material-icons"&gt; report &lt;/span&gt;
+Seems your account is about expire, upgrade now &lt;/div&gt;
+&lt;div class="ct-info ct-alert"&gt; &lt;span class="material-icons"&gt; lightbulb &lt;/span&gt;
+Mangalyaan is going live on 5 November 2013. Get ready! &lt;/div&gt;
+</code></pre>
             </div>
           </div>
+
           <div class="comp-type">
-            <h2 class="comp-title" id="alert">Status Alert with Border</h2>
+            <h2 class="comp-title">Status Alert with Border</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut
-              doloribus in?
+              Add <code>ct-error-bd, ct-update-bd...</code> etc classes to add
+              outer border alert. <code>-bd</code> stands for border.
             </p>
             <div class="comp-demo">
               <div>
@@ -282,25 +284,24 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-error-bd%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eerror%253C%252Fspan%253E%250A%2520%2520There%2520was%2520an%2520error%2520processing%2520your%2520request%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-updater-bd%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Echeck_circle%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520Data%2520uploaded%2520to%2520the%2520server.%2520Fire%2520on%21%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-reportr-bd%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ereport%253C%252Fspan%253E%250A%2520%2520%2520Seems%2520your%2520account%2520is%2520about%2520expire%252C%2520upgrade%2520now%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-infor-bd%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Elightbulb%253C%252Fspan%253E%250A%2520%2520%2520Mangalyaan%2520is%2520going%2520live%2520on%25205%2520November%25202013.%2520Get%2520ready%21%2520%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-error-bd ct-alert"&gt; &lt;span class="material-icons"&gt; error &lt;/span&gt;
+There was an error processing your request &lt;/div&gt;
+&lt;div class="ct-update-bd ct-alert"&gt; &lt;span class="material-icons"&gt; check_circle &lt;/span&gt;
+Data uploaded to the server. Fire on! &lt;/div&gt;
+&lt;div class="ct-report-bd ct-alert"&gt; &lt;span class="material-icons"&gt; report &lt;/span&gt;
+Seems your account is about expire, upgrade now &lt;/div&gt;
+&lt;div class="ct-info-bd ct-alert"&gt; &lt;span class="material-icons"&gt; lightbulb &lt;/span&gt;
+Mangalyaan is going live on 5 November 2013. Get ready! &lt;/div&gt;
+</code></pre>
             </div>
           </div>
+
           <div class="comp-type">
-            <h2 class="comp-title" id="alert">Alert with Button</h2>
+            <h2 class="comp-title">Alert with Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut
-              doloribus in?
+              We have close button in this alert type. You can use both default
+              and outer alert types in it using those classes.
             </p>
             <div class="comp-demo">
               <div>
@@ -317,18 +318,13 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-error%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%2520error%2520%253C%252Fspan%253E%250AThere%2520was%2520an%2520error%2520processing%2520your%2520request%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%2520close%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-update-bd%2520ct-alert%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Echeck_circle%2520%253C%252Fspan%253E%250AThere%2520was%2520an%2520error%2520processing%2520your%2520request%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%2520close%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 206px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-error ct-alert"&gt; &lt;span class="material-icons"&gt; error &lt;/span&gt;
+  There was an error processing your request &lt;span class="material-icons"&gt; close &lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="ct-update-bd ct-alert"&gt; &lt;span class="material-icons"&gt;check_circle &lt;/span&gt;
+  There was an error processing your request &lt;span class="material-icons"&gt; close &lt;/span&gt;
+&lt;/div&gt; </code></pre>
             </div>
           </div>
         </section>
@@ -337,17 +333,20 @@
           <div class="comp-type">
             <h2 class="comp-title" id="badge">Badge</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              Badges can be usefull in showing notification pop-up, user is
+              online or not, on CTA buttons. we have badges on icons, buttons
+              and avatar also.
             </p>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Badge on Icons</h2>
+            <h2 class="comp-title">Badge on Icons</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere alias necessitatibus.
+              Badge on icons has <code>basic-badge</code> class, inside that we
+              have <code>badge-pop</code> class which is a badge and includes
+              four colors by default it has blue color but you can add these
+              classes to make it different,
+              <code>ct-green, ct-red, ct-violet</code>.
             </p>
             <div class="comp-demo">
               <div class="basic-badge">
@@ -368,26 +367,27 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522mail%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-pop%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522mail%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-pop%2520ct-green%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522favorite%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cspan%2520class%253D%2522badge-pop%2520ct-red%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522cart%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-pop%2520ct-violet%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre> <code class="html">
+&lt;div class="basic-badge">
+  &lt;img src="img.svg-url" alt="mail" /> &lt;span class="badge-pop">4&lt;/span>
+&lt;/div>
+&lt;div class="basic-badge">
+  &lt;img src="img.svg-url" alt="mail" /> &lt;span class="badge-pop ct-green">4&lt;/span>
+&lt;/div>
+&lt;div class="basic-badge">
+  &lt;img src="img.svg-url" alt="favorite" /> &lt;span class="badge-pop ct-red">4&lt;/span>
+&lt;/div>
+&lt;div class="basic-badge">
+  &lt;img src="img.svg-url" alt="cart" /> &lt;span class="badge-pop ct-violet">4&lt;/span>
+&lt;/div> </code> </pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Large Badge</h2>
+            <h2 class="comp-title">Large Badge</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere alias necessitatibus.
+              Large badge which is mostly usefull in larger viewports. to use
+              simply add <code>large-badge</code> class in component.
             </p>
             <div class="comp-demo">
               <div class="large-badge">
@@ -400,26 +400,22 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522large-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522mail%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522large-pop%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522large-badge%2522%253Ev%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522favorite%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522large-pop%2520ct-red%2522%253E4%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre>
+               <code class="html">
+&lt;div class="large-badge"> &lt;img src="img.svt-url" alt="mail" /> 
+&lt;span class="large-pop">4&lt;/span> &lt;/div>
+&lt;div class="large-badge"> &lt;img src="img.svt-url" alt="favorite" /> 
+&lt;span class="large-pop ct-red">4&lt;/span> &lt;/div>
+               </code>
+             </pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Badge on Button</h2>
+            <h2 class="comp-title">Badge on Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere alias necessitatibus.
+              Badge for CTA buttons in your web app. add
+              <code>btn-badge</code> class to use.
             </p>
             <div class="comp-demo">
               <div class="basic-badge">
@@ -428,50 +424,47 @@
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%250A%2520%2520%253Cbutton%2520class%253D%2522btn-badge%2522%253EAction%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cspan%2520class%253D%2522badge-pop%2522%253E4%253C%252Fspan%253E%2520%2520%250A%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre>
+<code class="html">
+&lt;div class="basic-badge">
+  &lt;button class="btn-badge">Action&lt;/button>
+  &lt;span class="badge-pop">4&lt;/span>
+&lt;/div> </code> </pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Badge on Avatar</h2>
+            <h2 class="comp-title">Badge on Avatar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere alias necessitatibus.
+              Badge on avatar is used to check wether the user in online or
+              offline.
             </p>
             <div class="comp-demo">
               <div class="basic-badge">
-                <img src="./assests/images/pic2.jpg" alt="" class="ct-lg" />
+                <img
+                  src="./assests/images/pic2.jpg"
+                  alt=""
+                  class="ct-avatar ct-lg"
+                />
                 <span class="plane-badge"></span>
               </div>
               <div class="basic-badge">
-                <img src="./assests/svg/fallback.svg" alt="" class="ct-lg" />
+                <img
+                  src="./assests/svg/fallback.svg"
+                  alt=""
+                  class="ct-avatar ct-lg"
+                />
                 <span class="plane-badge"></span>
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520class%253D%2522ct-lg%2522%2520%252F%253E%250A%2520%253Cspan%2520class%253D%2522plane-badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522basic-badge%2522%253E%2520%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522%2522%2520class%253D%2522ct-lg%2522%2520%252F%253E%2520%2520%2520%2520%2520%250A%253Cspan%2520class%253D%2522plane-badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre> <code class="html">
+&lt;div class="basic-badge"> &lt;img src="img-url" alt="" class="ct-avatar ct-lg" />
+  &lt;span class="plane-badge">&lt;/span>
+&lt;/div>
+&lt;div class="basic-badge"> &lt;img src="img-url" alt="" class="ct-avatar ct-lg" />
+  &lt;span class="plane-badge">&lt;/span>
+&lt;/div> </code> </pre>
             </div>
           </div>
         </section>
@@ -480,17 +473,19 @@
           <div class="comp-type">
             <h2 class="comp-title" id="button">Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae
-              hic quibusdam repudiandae consequatur quas sit, labore, ad porro
-              quia ducimus dignissimos a?
+              Buttons are most important component of a web page also term as
+              CTA(call to action). We have different types of button to give
+              user simple and clean experience.
             </p>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Primary Button</h2>
+            <h2 class="comp-title">Primary Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere alias necessitatibus.
+              Primary buttons are the main buttons or CTA of the page. use
+              <code>ct-btn</code> class to use primary button. it also has four
+              colors which can you use adding respective classes.
+              <code>ct-red, ct-blue, ct-green, ct-gray</code>
             </p>
             <div class="comp-demo">
               <button class="ct-btn ct-red">Primary</button>
@@ -499,26 +494,21 @@
               <button class="ct-btn ct-gray">Primary</button>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522ct-btn%2520ct-red%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-blue%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-green%2522%253EPrimary%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-gray%2522%253EPrimary%253C%252Fbutton%253E%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre> <code class="html">
+&lt;button class="ct-btn ct-red">Primary&lt;/button>
+&lt;button class="ct-btn ct-blue">Primary&lt;/button>
+&lt;button class="ct-btn ct-green">Primary&lt;/button>
+&lt;button class="ct-btn ct-gray">Primary&lt;/button>
+</code> </pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Link Button</h2>
+            <h2 class="comp-title">Link Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere
+              Link buttons are usefull to link other pages like social media
+              handles or wiki of some terms. Add
+              <code>ct-red-bd, ... </code> classes to watch in action.
             </p>
             <div class="comp-demo">
               <button class="ct-btn ct-red-bd">Link</button>
@@ -527,67 +517,60 @@
               <button class="ct-btn ct-gray-bd">Link</button>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522ct-btn%2520ct-red-bd%2522%253ELink%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-blue-bd%2522%253ELink%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-green-bd%2522%253ELink%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-gray-bd%2522%253ELink%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 165px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre> <code class="html">
+&lt;button class="ct-btn ct-red-bd">Link&lt;/button>
+&lt;button class="ct-btn ct-blue-bd">Link&lt;/button>
+&lt;button class="ct-btn ct-green-bd">Link&lt;/button>
+&lt;button class="ct-btn ct-gray-bd">Link&lt;/button>
+</code> </pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="badge">Icon Button</h2>
+            <h2 class="comp-title">Icon Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere
+              Buttons with icons also very usefull for the people who don't
+              understands a language or can't read. We have four types of icon
+              buttons shown below to use add respective classes.
             </p>
             <div class="comp-demo">
-              <button class="ct-btn ct-ebtn ct-addcart">
+              <button class="ct-btn ct-addcart">
                 <span class="material-icons">shopping_cart</span>
                 ADD TO CART
               </button>
-              <button class="ct-btn ct-ebtn ct-wishlist">
+              <button class="ct-btn ct-wishlist">
                 <span class="material-icons">favorite</span>
                 WISHLIST
               </button>
 
-              <button class="ct-btn ct-ebtn ct-pay">
+              <button class="ct-btn ct-pay">
                 <span class="material-icons">attach_money</span>
                 PAYMENT
               </button>
-              <button class="ct-btn ct-ebtn ct-store">
+              <button class="ct-btn ct-store">
                 <span class="material-icons">store</span>
                 STORE
               </button>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=466.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522ct-btn%2520ct-addcart%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250Ashopping_cart%253C%252Fspan%253E%2520ADD%2520TO%2520CART%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-wishlist%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250Aavorite%253C%252Fspan%253E%2520WISHLIST%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-pay%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250Aattach_money%253C%252Fspan%253E%2520PAYMENT%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-store%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250Astore%253C%252Fspan%253E%2520STORE%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;button class="ct-btn ct-addcart">
+  &lt;span class="material-icons">shopping_cart&lt;/span>ADD TO CART&lt;/button>
+&lt;button class="ct-btn ct-wishlist">
+  &lt;span class="material-icons">favorite&lt;/span>WISHLIST&lt;/button> 
+&lt;button class="ct-btn ct-pay">
+  &lt;span class="material-icons">attach_money&lt;/span>PAYMENT&lt;/button>
+&lt;button class="ct-btn ct-store">
+  &lt;span class="material-icons">store&lt;/span>STORE&lt;/button>
+              </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title" id="badge">Floating Button</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              facere
+              Floating buttons to show a list on button click or it can be use
+              for search bar.
             </p>
             <div class="comp-demo">
               <button class="ct-btn">
@@ -601,18 +584,17 @@
               </button>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=466.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522ct-btn%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2520ct-float%2522%253Esearch%253C%252Fspan%253E%2520%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2520ct-float%2522%253Eadd%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2520ct-float%2522%253Esave%253C%252Fspan%253E%2520%2520%2520%250A%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                style="
-                  width: 100%;
-                  height: 206px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;button class="ct-btn">
+  &lt;span class="material-icons ct-float">search&lt;/span>
+&lt;/button>
+&lt;button class="ct-btn">
+  &lt;span class="material-icons ct-float">add&lt;/span>
+&lt;/button>
+&lt;button class="ct-btn">
+  &lt;span class="material-icons ct-float">save&lt;/span>
+&lt;/button>
+             </code></pre>
             </div>
           </div>
         </section>
@@ -621,16 +603,17 @@
           <div class="comp-type">
             <h2 class="comp-title" id="input">Input</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              neque quaerat ab! Provident, dolores ut.
+              Inputs are necessary for user interaction with the website. Inputs
+              are used to take information from the user, and then save the data
+              to the server.
             </p>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="input">Basic input</h2>
+            <h2 class="comp-title">Basic input</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              neque quaerat ab! Provident, dolores ut.
+              Basic input field with label. Include <code>ct-input</code> class
+              to use.
             </p>
 
             <div class="comp-demo">
@@ -638,33 +621,27 @@
                 <label for="ct-input">Label*</label>
                 <input
                   type="text"
-                  name="ct-input"
+                  id="ct-input"
                   class="ct-input"
                   placeholder="Basic input"
                 />
               </div>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=466.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-input-div%2522%253E%2520%253Clabel%2520for%253D%2522ct-input%2522%253ELabel*%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522ct-input%2522%2520class%253D%2522ct-input%2522%2520placeholder%253D%2522Basicinput...%2522%252F%253E%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                style="
-                  width: 100%;
-                  height: 144px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-input-div">
+&lt;label for="ct-input">Label*&lt;/label>
+&lt;input type="text" id="ct-input" class="ct-input" placeholder="Basic input" />
+&lt;/div>
+              </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title" id="input">Input with Icon</h2>
+            <h2 class="comp-title">Input with Icon</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              neque quaerat ab! Provident, dolores ut.
+              Input with icons, we have two types 1. input with error 2. input
+              with success
             </p>
 
             <div class="comp-demo">
@@ -690,26 +667,24 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=449&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-input-error%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522ct-error-icon%2522%2520name%253D%2522input%2522%250Aplaceholder%253D%2522input%2520text%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522material-icons%2522%253Ewarning_amber%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-input-check%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522ct-check-icon%2522%2520name%253D%2522input%2522%2520%250Aplaceholder%253D%2522input%2520text%2522%2520%252F%253E%2520%253Cspan%2520class%253D%2522material-icons%2522%253Edone%253C%252Fspan%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-input-error">
+&lt;input type="text" class="ct-error-icon" name="input" placeholder="input text"/>
+  &lt;span class="material-icons">warning_amber&lt;/span>
+&lt;/div>
+&lt;div class="ct-input-check"> 
+&lt;input type="text" class="ct-check-icon" name="input" placeholder="input text"/>
+  &lt;span class="material-icons">done&lt;/span>
+&lt;/div>
+              </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title" id="input">Input types</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              neque quaerat ab! Provident, dolores ut.
+              Checkbox and radio buttons are use to make a choice. to agree a
+              policy, and choose the gender.
             </p>
 
             <div class="comp-demo">
@@ -742,26 +717,29 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=501.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-wrapper%2522%253E%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox1%2522%250Aclass%253D%2522ct-checkbox%2522%2520checked%2520%252F%253E%2520%253Clabel%2520for%253D%2522checkbox1%2522%253EChecked%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-wrapper%2522%253E%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox2%2522%250Aclass%253D%2522ct-checkbox%2522%2520disabled%2520%252F%253E%2520%253Clabel%2520for%253D%2522checkbox2%2522%253ECheckbox%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-wrapper%2522%253E%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio%2522%2520id%253D%2522radio1%2522%2520%250Aclass%253D%2522ct-radio%2522%2520%252F%253E%2520%253Clabel%2520for%253D%2522radio1%2522%253EMale%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-wrapper%2522%253E%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522ct-radio%2522%2520name%253D%2522radio%2522%2520id%253D%2522radio2%2522%2520%252F%253E%2520%2520%253Clabel%2520for%253D%2522radio2%2522%253EFemale%253C%252Flabel%253E%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-wrapper">
+&lt;input type="checkbox" checked id="checkbox1" class="ct-checkbox"/>
+&lt;label for="checkbox1">Checked&lt;/label> &lt;/div>
+&lt;div class="ct-wrapper">
+&lt;input type="checkbox" id="checkbox2" class="ct-checkbox" disabled/>
+  &lt;label for="checkbox2">Checkbox&lt;/label> &lt;/div>
+&lt;div class="ct-wrapper">
+  &lt;input type="radio" name="radio" id="radio1" class="ct-radio" />
+  &lt;label for="radio1">Male&lt;/label> &lt;/div>
+&lt;div class="ct-wrapper">
+  &lt;input type="radio" class="ct-radio" name="radio" id="radio2" />
+  &lt;label for="radio2">Female&lt;/label> &lt;/div>
+             </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title" id="input">Input form</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              neque quaerat ab! Provident, dolores ut.
+              Every site has a form to get data of user it can be usefull in
+              different ways. You can directly use below form dy copy and
+              pasting into your page.
             </p>
 
             <div class="comp-demo">
@@ -830,18 +808,26 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=533.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522ct-form%2522%253E%2520%253Ch2%253ESign%2520up%253C%252Fh2%253E%250A%253Cdiv%2520class%253D%2522ct-input-div%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522ct-input%2522%2520placeholder%253D%2522Enter%2520name...%2522%2520required%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-input-error%2522%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522ct-error-icon%2522%2520placeholder%253D%2522Email...%2522%2520required%2520%252F%253E%250A%253Cspan%2520class%253D%2522material-icons%2522%253Ewarning_amber%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-input-check%2522%253E%250A%253Cinput%2520type%253D%2522tel%2522%2520class%253D%2522ct-check-icon%2522%2520placeholder%253D%2522Phone%2520No...%2522%2520required%2520%252F%253E%250A%253Cspan%2520class%253D%2522material-icons%2522%253Edone%253C%252Fspan%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-checkbox-div%2522%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522checkbox3%2522%2520required%2520class%253D%2522ct-checkbox%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522checkbox3%2522%253EPrivacy%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-radio-div%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522radio3%2522%2520required%2520class%253D%2522ct-radio%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522radio3%2522%253EMale%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522ct-radio-div%2522%253E%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522radio4%2522%2520class%253D%2522ct-radio%2522%2520required%2520%252F%253E%2520%253Clabel%2520for%253D%2522radio4%2522%253EFemale%253C%252Flabel%253E%2520%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522ct-form-btn%2522%2520type%253D%2522submit%2522%253ESUBMIT%253C%252Fbutton%253E%2520%250A%253C%252Fform%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A"
-                style="
-                  width: 100%;
-                  height: 475px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;form class="ct-form"> &lt;h2>Sign up&lt;/h2> &lt;div class="ct-input-div">
+  &lt;input type="text" class="ct-input" placeholder="Enter name..." required /> &lt;/div>
+  &lt;div class="ct-input-error">
+  &lt;input type="email" class="ct-error-icon" placeholder="Email..." required />
+  &lt;span class="material-icons">warning_amber&lt;/span> &lt;/div>
+  &lt;div class="ct-input-check">
+  &lt;input type="tel" class="ct-check-icon" placeholder="Phone No..." required />
+  &lt;span class="material-icons">done&lt;/span> &lt;/div>
+  &lt;div class="ct-checkbox-div">
+  &lt;input type="checkbox" id="checkbox3" required class="ct-checkbox" />
+  &lt;label for="checkbox3">Privacy&lt;/label> &lt;/div>
+  &lt;div class="ct-radio-div">
+  &lt;input type="radio" id="radio3" required class="ct-radio" />
+  &lt;label for="radio3">Male&lt;/label> &lt;/div>
+  &lt;div class="ct-radio-div"> &lt;input type="radio" id="radio4" class="ct-radio" required /> 
+  &lt;label for="radio4">Female&lt;/label> &lt;/div>
+  &lt;button class="ct-form-btn" type="submit">SUBMIT&lt;/button> 
+&lt;/form>        
+              </code></pre>
             </div>
           </div>
         </section>
@@ -850,17 +836,21 @@
           <div class="comp-type">
             <h2 class="comp-title" id="image">Image</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quia, inventore delectus ipsum possimus neque eaque odit.
+              Image Components are used to dsiplay Images on websites, which are
+              screen responsive. They expand upto the width of the container
+              they are in.
             </p>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title">Image in size</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Necessitatibus voluptatum aperiam provident?
+              This are default square images with three sizes.
+              <code
+                >ct-img-sm | small, ct-img-md | medium, ct-img-lg | large.</code
+              >
             </p>
+            <small> small = 96px, medium = 128px, and large = 192px. </small>
 
             <div class="comp-demo">
               <img
@@ -881,26 +871,17 @@
             </div>
 
             <div class="comp-demo">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=444&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-sm%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-md%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-lg%2522%2520%252F%253E%250A"
-                style="
-                  width: 100%;
-                  height: 144px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;img src="img-url" lass="ct-img-sm" alt="fish"/>
+&lt;img src="img-url" class="ct-img-md" alt="fish"/>
+&lt;img src="img-url" class="ct-img-lg" alt="fish"/>
+              </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title">Round image</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            </p>
+            <p>Round images are used as profile or logo also.</p>
 
             <div class="comp-demo">
               <img
@@ -921,25 +902,22 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=414&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-round%2520ct-img-sm%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-round%2520ct-img-md%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-img-round%2520ct-img-lg%2522%2520%252F%253E%250A"
-                style="
-                  width: 100%;
-                  height: 144px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;img src="image-url" alt="fish" class="ct-img-round ct-img-sm" />
+&lt;img src="image-url" alt="fish" class="ct-img-round ct-img-md" />
+&lt;img src="image-url" alt="fish" class="ct-img-round ct-img-lg" />
+              </code></pre>
             </div>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title">Responsive image</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus.
+              Responsive images are much important because it can response to
+              the viewport, and we don't need to add styles for different
+              viewports. we have below example of responsive image which adjust
+              its <code>width</code> and <code> height</code> respect to its
+              parent element.
             </p>
 
             <div class="comp-demo">
@@ -953,18 +931,11 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=434&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ct-landing-div%2522%253E%2520%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fassests%252Fimages%252Ffish.jpg%2522%2520alt%253D%2522fish%2522%2520%2520class%253D%2522ct-img%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
-                style="
-                  width: 100%;
-                  height: 144px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+&lt;div class="ct-landing-div">
+  &lt;img src="your-img-url" alt="fish" class="ct-img" />
+&lt;/div>
+              </code></pre>
             </div>
           </div>
         </section>
@@ -973,16 +944,20 @@
           <div class="comp-type">
             <h2 class="comp-title" id="card">Card</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quia, inventore delectus ipsum possimus neque eaque odit.
+              Cards are boxes that display content and actions. They should be
+              easy to scan for relevant and actionable information. Elements,
+              like text and images, should be placed on them in a way that
+              clearly indicates hierarchy.
             </p>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title">Card</h2>
+            <h2 class="comp-title">
+              Cards with buttons, badges, icons and Text overlay
+            </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              quia, inventore delectus ipsum possimus neque eaque odit.
+              Cards are the important component in e-commerce site. We can show
+              our product, its stats and price in single card.
             </p>
 
             <div class="comp-demo card">
@@ -1056,52 +1031,48 @@
               </a>
             </div>
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=434&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522ct-basic-card%2522%253E%250A%253Cimg%2520src%253D%2522.%252Fassests%252Fimages%252Ffish.jpg%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-card-img%2522%252F%253E%250A%253Cdiv%2520class%253D%2522ct-product-stats%2522%253E%2520%253Ch3%253EProduct%2520name%253C%252Fh3%253E%250A%253Csmall%253EProduct%2520by%2520Dev%253C%252Fsmall%253E%2520%253Cp%2520class%253D%2522ct-product-info%2522%253E%250ALorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522ct-card-btns%2522%253E%2520%253Cbutton%2520class%253D%2522ct-btn%2520ct-gray-bd%2522%253E%250AADD%2520TO%2520CART%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-blue%2522%253EBUY%2520NOW%253C%252Fbutton%253E%2520%253C%252Fdiv%253E%2520%253C%252Fdiv%253E%250A%253C%252Fa%253E%250A"
-                style="
-                  width: 100%;
-                  height: 268px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=446.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522ct-basic-card%2520ct-card-badge-div%2522%253E%250A%253Cspan%2520class%253D%2522titled-badge%2520ct-violet%2520ct-card-badge%2522%253ENEW%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522material-icons%2520ct-card-wish%2522%253Efavorite%253C%252Fspan%253E%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fist%2522%2520class%253D%2522ct-card-img%2522%252F%253E%250A%253Cdiv%2520class%253D%2522ct-product-stats%2522%253E%2520%253Ch3%253EProduct%2520name%253C%252Fh3%253E%250A%253Csmall%253EProduct%2520by%2520Dev%253C%252Fsmall%253E%2520%253Cp%2520class%253D%2522ct-product-info%2522%253E%250ALorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing.%2520%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522ct-card-btns%2522%253E%2520%253Cbutton%2520class%253D%2522ct-btn%2520ct-ebtn%2520ct-addcart%2522%253E%250A%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%2520%2520ADD%2520TO%2520CART%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-ebtn%2520ct-pay%2522%253E%250A%253Cspan%2520class%253D%2522material-icons%2522%253Eattach_money%253C%252Fspan%253E%2520BUY%2520%253C%252Fbutton%253E%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%253C%252Fa%253E%250A"
-                style="
-                  width: 100%;
-                  height: 330px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+Simple card  
+&lt;a class="ct-basic-card"> 
+  &lt;img src="your-img-url" alt="fish" class="ct-card-img" />
+  &lt;div class="ct-product-stats"> &lt;h3>Product name&lt;/h3> &lt;small>Product by Dev&lt;/small> 
+  &lt;p class="ct-product-info"> Lorem ipsum dolor sit, amet consectetur adipisicing.&lt;/p>
+  &lt;div class="ct-card-btns"> &lt;button class="ct-btn ct-gray-bd">ADD TO CART&lt;/button> 
+  &lt;button class="ct-btn ct-blue">BUY NOW&lt;/button> &lt;/div> &lt;/div> 
+&lt;/a>
 
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=446.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522ct-basic-card%2522%253E%2520%250A%253Cimg%2520src%253D%2522image-url%2522%2520alt%253D%2522fish%2522%2520class%253D%2522ct-card-img%2522%252F%253E%250A%253Cdiv%2520class%253D%2522ct-product-stats%2522%253E%2520%253Cdiv%2520class%253D%2522product-title%2522%253E%250A%253Ch3%253EProduct%2520name%253C%252Fh3%253E%2520%253Csmall%253EProduct%2520by%2520Dev%253C%252Fsmall%253E%2520%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522ct-product-info%2522%253E%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elitLaudantium%252C%2520blanditiis%21%2520%253C%252Fp%253E%2520%253Cdiv%2520class%253D%2522ct-card-btns%2522%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-gray-bd%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522ct-btn%2520ct-blue%2522%253EBUY%2520NOW%253C%252Fbutton%253E%2520%253C%252Fdiv%253E%2520%253C%252Fdiv%253E%2520%253C%252Fa%253E%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+Card with badge and buttons
+&lt;a class="ct-basic-card ct-card-badge-div">
+  &lt;span class="titled-badge ct-violet ct-card-badge">NEW&lt;/span>
+  &lt;span class="material-icons ct-card-wish">favorite&lt;/span>
+  &lt;img src="your-img-url" alt="fist" class="ct-card-img"/>
+  &lt;div class="ct-product-stats">&lt;h3>Product name&lt;/h3>&lt;small>Product by Dev&lt;/small>
+  &lt;p class="ct-product-info">Lorem ipsum dolor sit amet, consectetur adipisicing.&lt;/p>
+  &lt;div class="ct-card-btns">&lt;button class="ct-btn ct-ebtn ct-addcart">
+  &lt;span class="material-icons">shopping_cart&lt;/span>ADD TO CART&lt;/button>
+  &lt;button class="ct-btn ct-ebtn ct-pay">&lt;span class="material-icons">attach_money
+  &lt;/span>BUY&lt;/button>&lt;/div>&lt;/div>
+&lt;/a>
+
+Card on Text overlay
+&lt;a class="ct-basic-card"> 
+  &lt;img src="your-img-url" alt="fish" class="ct-card-img"/> 
+  &lt;div class="ct-product-stats"> &lt;div class="product-title">
+  &lt;h3>Product name&lt;/h3> &lt;small>Product by Dev&lt;/small> &lt;/div> 
+  &lt;p class="ct-product-info"> Lorem, ipsum dolor sit
+  amet consectetur adipisicing elit. Laudantium, blanditiis! &lt;/p>
+  &lt;div class="ct-card-btns"> &lt;button class="ct-btn ct-gray-bd">ADD TO CART&lt;/button> 
+  &lt;button class="ct-btn ct-blue">BUY NOW&lt;/button> &lt;/div> &lt;/div> 
+&lt;/a>
+</code></pre>
             </div>
           </div>
 
           <div class="comp-type">
-            <h2 class="comp-title">Horizontal/Text Cards</h2>
+            <h2 class="comp-title">Horizontal card/ Text card</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime,
-              incidunt. Ea expedita magnam culpa distinctio maiores. Illum quos
-              ab deleniti consequatur beatae laudantium?
+              Horizontal card and Text only cards to inform user about your new
+              idea.
             </p>
 
             <div class="comp-demo">
@@ -1120,7 +1091,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                   </p>
                   <div class="ct-card-btns">
-                    <button class="ct-btn ct-gray-bd">ADD TO CART</button>
+                    <button class="ct-btn ct-gray-bd">THANKS</button>
                     <button class="ct-btn">
                       <span class="material-icons wishlist-btn">favorite</span>
                       <span class="material-icons share-btn">share</span>
@@ -1146,31 +1117,30 @@
             </div>
 
             <div class="comp-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=533.5&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522ct-horizontal-card%2520ct-card-badge-div%2522%253E%250A%253Cspan%2520class%253D%2522material-icons%2520ct-card-close%2522%253Eclose%253C%252Fspan%253E%250A%253Cimg%2520src%253D%2522.%252Fassests%252Fimages%252Ffish.jpg%2522%2520alt%253D%2522product%2522%2520%250Aclass%253D%2522ct-card-img%2520ct-img-lg%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522ct-product-stats%2522%253E%2520%253Ch3%253EProduct%2520name%253C%252Fh3%253E%250A%253Csmall%253EProduct%2520by%2520Dev%253C%252Fsmall%253E%2520%253Cp%2520class%253D%2522ct-product-info%2522%253E%250ALorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522ct-card-btns%2522%253E%2520%253Cbutton%2520class%253D%2522ct-btn%2520ct-gray-bd%2522%253E%250AADD%2520TO%2520CART%253C%252Fbutton%253E%2520%253Cbutton%2520class%253D%2522ct-btn%2522%253E%2520%250A%253Cspan%2520class%253D%2522material-icons%2520wishlist-btn%2522%253Efavorite%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522material-icons%2520share-btn%2522%253Eshare%253C%252Fspan%253E%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%2520%253C%252Fdiv%253E%2520%253C%252Fa%253E%250A"
-                style="
-                  width: 100%;
-                  height: 330px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              <pre><code class="html">
+Horizontal card
+&lt;a class="ct-horizontal-card ct-card-badge-div"> 
+  &lt;span class="material-icons ct-card-close">close&lt;/span> 
+  &lt;img src="your-img-url" class="ct-card-img ct-img-lg" alt="product"/> 
+  &lt;div class="ct-product-stats">&lt;h3>Product name&lt;/h3> 
+  &lt;small>Product by Dev&lt;/small>&lt;p class="ct-product-info"> 
+  Lorem ipsum dolor sit amet consectetur adipisicing. &lt;/p> 
+  &lt;div class="ct-card-btns">&lt;button class="ct-btn ct-gray-bd">THANKS&lt;/button> 
+  &lt;button class="ct-btn">&lt;span class="material-icons wishlist-btn">favorite&lt;/span> 
+  &lt;span class="material-icons share-btn">share&lt;/span> &lt;/button> &lt;/div> &lt;/div>
+&lt;/a>
 
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2834%2C40%2C49%2C1%29&t=one-dark&wt=sharp&l=htmlmixed&width=396.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Inconsolata&fs=11.5px&lh=180%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522ct-basic-card%2520text-card%2522%253E%2520%253Cspan%2520class%253D%2522material-icons%2520ct-card-close%2522%253Eclose%253C%252Fspan%253E%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%253Ch2%253EThank%2520you%2520for%2520visiting%21%253C%252Fh2%253E%2520%253Cp%253E%250ALorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250AFugit%2520quod%2520mollitia%2520explicabo%2520quo%2520iusto%2520%253C%252Fp%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-card-btn%2522%253E%2520%250A%253Cspan%2520class%253D%2522material-icons%2520wishlist-btn%2522%253Efavorite%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522material-icons%2520share-btn%2522%253Eshare%253C%252Fspan%253E%2520%253C%252Fdiv%253E%2520%253C%252Fa%253E%250A"
-                style="
-                  width: 100%;
-                  height: 247px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+Text only card 
+&lt;a class="ct-basic-card text-card">
+  &lt;span class="material-icons ct-card-close">close&lt;/span>
+  &lt;div class="text-container"> &lt;h2>Thank you for visiting!&lt;/h2>
+  &lt;p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Fugit quod mollitia explicabo quo iusto
+  &lt;/p> &lt;/div> &lt;div class="text-card-btn">
+  &lt;span class="material-icons wishlist-btn">favorite&lt;/span>
+  &lt;span class="material-icons share-btn">share&lt;/span> &lt;/div>
+&lt;/a>
+            </code></pre>
             </div>
           </div>
         </section>
