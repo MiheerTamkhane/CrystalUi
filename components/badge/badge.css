@@ -74,11 +74,8 @@
   border-radius: 50%;
   background-color: var(--red-500);
 }
-.ct-lg {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
+
 .basic-badge img {
+  border-radius: 50%;
   object-fit: cover;
 }
