@@ -3,7 +3,7 @@
   --heading: #222831;
   --text: #393e46;
   --primary: #00adb5;
-  --body: #f7f7f7;
+  --body: #f1f1f1;
 
   /* Default color VIBGYOR */
   --gray-300: #d1d5db;
@@ -47,11 +47,3 @@
 html {
   font-family: sans-serif;
 }
-/* .ct-component {
-  width: 60vw;
-  border-bottom: 1px solid black;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 1rem;
-} */
