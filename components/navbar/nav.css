@@ -1,0 +1,43 @@
+@import url("/components/root.css");
+@import url("/components/button/button.css");
+@import url("/components/input/input.css");
+@import url("/components/badge/badge.css");
+.nav-bar {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--gray-500);
+  background-color: var(--gray-300);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: 0 auto;
+}
+.ct-right-nav {
+  display: flex;
+}
+.ct-nav-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ct-nav-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ct-nav-signin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 1rem;
+}
+.nav-searchbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-right: 2rem;
+}

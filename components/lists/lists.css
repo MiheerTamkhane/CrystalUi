@@ -1,0 +1,35 @@
+@import url("/components/root.css");
+@import url("/components/avatar/avatar.css");
+
+.ct-ul-list {
+  color: var(--text);
+}
+.ct-icon-list {
+  list-style: none;
+}
+.ct-icon-list span {
+  color: var(--green-500);
+  margin-right: 0.3rem;
+}
+.ct-icon-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.ct-stacked-list {
+  border-radius: 3px;
+  border: 1px solid var(--gray-300);
+  padding: 1rem;
+  padding-right: 3rem;
+}
+.ct-stacked-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.5rem;
+}
+.ct-stacked-list li img {
+  margin-right: 1rem;
+}
