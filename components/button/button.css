@@ -12,39 +12,39 @@
 /* Default buttons styles  */
 .ct-btn.ct-red {
   background: var(--red-500);
-  color: var(--body);
+  color: var(--gray-100);
   transition: all 250ms ease;
 }
 .ct-btn.ct-red:hover {
   background: var(--red-700);
-  color: #fff;
+  color: var(--gray-100);
 }
 .ct-btn.ct-blue {
   background: var(--blue-500);
-  color: var(--body);
+  color: var(--gray-100);
   transition: all 250ms ease;
 }
 .ct-btn.ct-blue:hover {
   background: var(--blue-700);
-  color: #fff;
+  color: var(--gray-100);
 }
 .ct-btn.ct-green {
   background: var(--green-500);
-  color: var(--body);
+  color: var(--gray-100);
   transition: all 250ms ease;
 }
 .ct-btn.ct-green:hover {
   background: var(--green-700);
-  color: #fff;
+  color: var(--gray-100);
 }
 .ct-btn.ct-gray {
   background: var(--gray-500);
-  color: var(--body);
+  color: var(--gray-100);
   transition: all 250ms ease;
 }
 .ct-btn.ct-gray:hover {
   background: var(--gray-700);
-  color: #fff;
+  color: var(--gray-100);
 }
 
 /* outerline buttons styles  */
