@@ -1,0 +1,121 @@
+/* @import url("/reset.css"); */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100vw;
+  background: var(--body);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.nav-container .navbar {
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-logo {
+  font-size: 3rem;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  padding: 0rem 1.2rem;
+}
+.nav-logo:hover {
+  color: var(--primary);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  padding: 0rem 1.2rem;
+  color: var(--text);
+  transition: all 250ms ease;
+}
+
+.link:hover {
+  color: var(--primary);
+}
+
+.nav-div {
+  display: flex;
+}
+
+/* DARK LIGHT MODE CLASSES BELOW  */
+.dark-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 2rem;
+}
+.dark-light .sun,
+.moon {
+  position: absolute;
+  padding: 0.5rem;
+}
+.dark-light .sun {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dark-light.active .sun {
+  opacity: 1;
+  pointer-events: auto;
+}
+.dark-light.active .moon {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hamburger-div {
+  display: none;
+}
+.moon {
+  font-size: 3.6rem;
+  color: var(--text);
+}
+.sun {
+  font-size: 3.6rem;
+  color: #f7f7f7;
+}
+@media only screen and (max-width: 928px) {
+  .nav-container .navbar {
+    margin: 0 1rem;
+    min-width: 200px;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hamburger-div > * {
+    padding: 0.5rem;
+  }
+  .hamburger-div .hamburger {
+    font-size: 4.6rem;
+    color: var(--primary);
+  }
+  .nav-div ul {
+    display: none;
+  }
+}

@@ -1,0 +1,118 @@
+@import url("/components/root.css");
+
+/*------------ responsive img imp ------------*/
+.ct-card-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 1rem;
+}
+
+/* card body styles */
+.ct-basic-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 24rem;
+  max-height: 100%;
+  text-decoration: none;
+  background: var(--body);
+  color: var(--text);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all 250ms ease;
+}
+
+.ct-basic-card:hover {
+  box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.2);
+}
+.ct-card-badge-div {
+  position: relative;
+}
+.ct-card-badge {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+.ct-card-wish {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  color: var(--red-500);
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ct-product-info {
+  margin: 1rem 0;
+}
+
+.ct-card-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Card with text overlay  */
+.ct-basic-card {
+  position: relative;
+}
+.product-title {
+  width: 90%;
+  position: absolute;
+  top: 16rem;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal card styles  */
+.ct-horizontal-card {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 30rem;
+  text-decoration: none;
+  background: var(--body);
+  color: var(--text);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all 250ms ease;
+}
+.ct-horizontal-card:hover {
+  box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.2);
+}
+.ct-card-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: var(--text);
+}
+
+.wishlist-btn {
+  color: var(--red-500);
+}
+.share-btn {
+  color: var(--gray-500);
+}
+
+/* Card with only text */
+
+.text-card {
+  padding: 1.2rem;
+}
+.text-card-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.text-container h2 {
+  margin-bottom: 0.5rem;
+}
+.text-container p {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 0.5rem;
+}
+.text-container hr {
+  color: rgba(0, 0, 0, 0.15);
+}

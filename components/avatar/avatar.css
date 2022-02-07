@@ -1,0 +1,39 @@
+@import url("/components/root.css");
+
+/* ct-round class makes img round  */
+
+.ct-avatar {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.ct-round {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ct-fallback {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ct-sm {
+  width: 32px;
+  height: 32px;
+}
+.ct-md {
+  width: 40px;
+  height: 40px;
+}
+.ct-lg {
+  width: 64px;
+  height: 64px;
+}
+.ct-xlg {
+  width: 96px;
+  height: 96px;
+}
+.ct-square {
+  border-radius: 5px;
+  object-fit: cover;
+}

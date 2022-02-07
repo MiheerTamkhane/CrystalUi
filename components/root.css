@@ -1,0 +1,50 @@
+:root {
+  /* color theme of lib  */
+  --heading: #222831;
+  --text: #393e46;
+  --primary: #00adb5;
+  --body: #f9f9f9;
+
+  /* Default color VIBGYOR */
+  --gray-100: #ffffff;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-900: #1f2937;
+
+  --violet-300: #d8cffc;
+  --violet-500: #8b5cf6;
+  --violet-700: #6d28d9;
+
+  --indigo-300: #a5b4fc;
+  --indigo-500: #6366f1;
+  --indigo-700: #4338ca;
+
+  --blue-300: #bee3f8;
+  --blue-500: #3182ce;
+  --blue-700: #0b5fbe;
+
+  --green-300: #c6f6d5;
+  --green-500: #38a169;
+  --green-700: #15803d;
+
+  --yellow-300: #fde047;
+  --yellow-500: #eab308;
+  --yellow-700: #a16207;
+
+  --orange-300: #feebc8;
+  --orange-500: #dd6b20;
+  --orange-700: #c2410c;
+
+  --red-300: #fed7d7;
+  --red-500: #e53e3e;
+  --red-700: #b91c1c;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}

@@ -1,0 +1,79 @@
+@import url("/components/root.css");
+
+input.ct-input {
+  background: var(--body);
+}
+.ct-input-div {
+  display: flex;
+  flex-direction: column;
+}
+.ct-input {
+  padding: 0.6rem;
+  border: 1px solid var(--blue-500);
+  outline: none;
+}
+
+.ct-input-error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--red-500);
+  color: var(--red-500);
+}
+.ct-input-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--green-500);
+  color: var(--green-500);
+}
+
+.ct-input-error .ct-error-icon {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  background: var(--body);
+}
+.ct-input-check .ct-check-icon {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  background: var(--body);
+}
+.ct-input-error span,
+.ct-input-check span {
+  margin: 0 0.5rem;
+}
+
+.ct-checkbox[type="checkbox"],
+.ct-radio[type="radio"] {
+  accent-color: var(--green-500);
+}
+
+/* form styles  */
+.ct-form {
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  border: 1px solid var(--gray-300);
+  color: var(--text);
+}
+.ct-form > * {
+  margin: 1rem 0rem;
+}
+
+.ct-form-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  font-weight: 700;
+  background: var(--blue-500);
+  color: var(--gray-300);
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+.ct-form-btn:hover {
+  background: var(--blue-700);
+}

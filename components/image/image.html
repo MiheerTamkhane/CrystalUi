@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image | CrystalUi</title>
+    <link rel="stylesheet" href="./image.css" />
+  </head>
+  <body>
+    <h2>Image</h2>
+    <small>124 X 124px | 192 X 192px</small>
+    <div class="ct-component">
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-sm" />
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-md" />
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-lg" />
+    </div>
+    <h2>Images rounded</h2>
+    <small>124 X 124px | 192 X 192px</small>
+    <div class="ct-component">
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-round ct-img-sm" />
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-round ct-img-md" />
+      <img src="./images/fish.jpg" alt="fish" class="ct-img-round ct-img-lg" />
+    </div>
+    <h2>Fallback images</h2>
+    <div class="ct-container">
+      <img src="./images/fallback.jpg" alt="fallback" class="ct-img-sm" />
+      <img src="./images/fallback.jpg" alt="fallback" class="ct-img-md" />
+      <img src="./images/fallback.jpg" alt="fallback" class="ct-img-lg" />
+    </div>
+    <h2>Auto resize image to fit parent div.</h2>
+    <div class="ct-component">
+      <div class="ct-landing-div">
+        <img src="./images/fish.jpg" alt="fish" class="ct-img" />
+      </div>
+    </div>
+  </body>
+</html>

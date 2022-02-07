@@ -1,0 +1,43 @@
+@import url("/style.css");
+
+.ct-text-headings > * {
+  border-bottom: 1px solid var(--gray-300);
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.ct-text-div {
+  width: 100%;
+}
+.ct-text-gray {
+  color: var(--gray-500);
+}
+.ct-text-start {
+  text-align: start;
+}
+.ct-text-center {
+  text-align: center;
+}
+.ct-text-end {
+  text-align: end;
+}
+
+.ct-h1 {
+  font-size: 2.75rem;
+}
+.ct-h2 {
+  font-size: 2.5rem;
+}
+.ct-h3 {
+  font-size: 2.25rem;
+}
+.ct-h4 {
+  font-size: 2rem;
+}
+.ct-h5 {
+  font-size: 1.75rem;
+}
+.ct-h6 {
+  font-size: 1.5rem;
+}

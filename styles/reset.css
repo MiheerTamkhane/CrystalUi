@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:ital@1&display=swap");
+@import url("https://use.typekit.net/hsx1iuu.css");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/*----- Colors -----*/
+:root {
+  --heading: #222831;
+  --text: #393e46;
+  --primary: #02bfc9;
+  --body: #f7f7f7;
+}
+body {
+  background: var(--body);
+}
+body.dark {
+  --body: #222831;
+  --text: #f7f7f7;
+  --primary: #02bfc9;
+  --heading: #e7e7e7;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--heading);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--heading);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}

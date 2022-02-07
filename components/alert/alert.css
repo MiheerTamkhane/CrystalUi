@@ -1,0 +1,47 @@
+@import url("/components/root.css");
+
+.ct-alert span {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.ct-alert {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.ct-error {
+  background: var(--red-300);
+  color: var(--red-500);
+}
+.ct-update {
+  background: var(--green-300);
+  color: var(--green-500);
+}
+.ct-report {
+  background: var(--orange-300);
+  color: var(--orange-500);
+}
+.ct-info {
+  background: var(--violet-300);
+  color: var(--violet-700);
+}
+.ct-error-bd {
+  border: 1px solid var(--red-500);
+  color: var(--red-500);
+}
+.ct-update-bd {
+  border: 1px solid var(--green-500);
+  color: var(--green-500);
+}
+.ct-report-bd {
+  border: 1px solid var(--orange-500);
+  color: var(--orange-500);
+}
+.ct-info-bd {
+  border: 1px solid var(--violet-500);
+  color: var(--violet-700);
+}

@@ -1,0 +1,81 @@
+@import url("/components/root.css");
+
+.basic-badge {
+  max-width: max-content;
+  position: relative;
+  padding: 0.4rem;
+}
+
+.badge-pop {
+  position: absolute;
+  font-size: 1rem;
+  top: 0px;
+  right: 0px;
+  padding: 0 0.4rem;
+  border-radius: 50%;
+  background: var(--blue-300);
+  color: var(--gray-500);
+}
+.large-badge {
+  max-width: max-content;
+  position: relative;
+  padding: 0.5rem;
+}
+.large-pop {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 600;
+  top: 0px;
+  right: 0px;
+  padding: 0 0.5rem;
+  border-radius: 50%;
+  background: var(--blue-300);
+  color: var(--gray-500);
+}
+.ct-red {
+  background: var(--red-300);
+  color: var(--red-700);
+}
+.ct-violet {
+  background: var(--violet-300);
+  color: var(--violet-700);
+}
+.ct-green {
+  background: var(--green-300);
+  color: var(--green-700);
+}
+
+.btn-badge {
+  border: none;
+  padding: 0.5rem 1.2rem;
+  background: #626262;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ct-fail-avatar {
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ct-avatar-badge {
+  position: relative;
+  border: 1px slateblue solid;
+}
+.plane-badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: var(--red-500);
+}
+
+.basic-badge img {
+  border-radius: 50%;
+  object-fit: cover;
+}
