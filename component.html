@@ -1738,7 +1738,60 @@ undoBtn.addEventListener("click", () => {
         </div>
       </section>
 
-      
+      <section class="comp-container">
+        <div class="comp-type">
+          <h2 class="comp-title" id="grid">Grids</h2>
+          <p>
+            The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+          </p>
+        </div>
+
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Two col grid</h2>
+          <p>
+            The <code>ct-grid</code> class makes the elements display : grid, and the <code>ct-grid-2</code> class adds two columns which takes 50%, 50% width of parent element.
+          </p>
+          <div class="comp-demo">
+            <main class="ct-grid-2 ct-grid">
+              <section class="ct-child-1 ct-child">Col-1</section>
+              <section class="ct-child-2 ct-child">Col-2</section>
+            </main>
+          </div>
+          <div class="comp-code">
+<pre><code class="html">
+&lt;main class="ct-grid-2 ct-grid">
+  &lt;section class="ct-child-1 ct-child">Col-1&lt;/section>
+  &lt;section class="ct-child-2 ct-child">Col-2&lt;/section>
+&lt;/main>
+</code></pre>
+          </div>
+        </div>
+
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Three col grid</h2>
+          <p>
+            The <code>ct-grid</code> class makes the elements display : grid, and the <code>ct-grid-3</code> class adds three columns which takes equal width of parent element.
+          </p>
+          <div class="comp-demo">
+            <main class="ct-grid-3 ct-grid">
+              <section class="ct-child-1 ct-child">Col-1</section>
+              <section class="ct-child-2 ct-child">Col-2</section>
+              <section class="ct-child-3 ct-child">Col-3</section>
+            </main>
+          </div>
+          <div class="comp-code">
+<pre><code class="html">
+&lt;main class="ct-grid-3 ct-grid">
+  &lt;section class="ct-child-1 ct-child">Col-1&lt;/section>
+  &lt;section class="ct-child-2 ct-child">Col-2&lt;/section>
+  &lt;section class="ct-child-3 ct-child">Col-3&lt;/section>
+&lt;/main>
+</code></pre>
+          </div>
+        </div>
+
+
+      </section>
       </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
