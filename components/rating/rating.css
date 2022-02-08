@@ -1,0 +1,39 @@
+@import url("/style.css");
+
+.ct-rating {
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ct-rating a {
+  text-decoration: none;
+  color: var(--gray-500);
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 0.1rem;
+  transition: all 250ms ease;
+}
+.ct-rating.disabled {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.ct-rating:hover a {
+  opacity: 1;
+  color: var(--yellow-500);
+}
+
+.ct-rating a:hover {
+  opacity: 1;
+}
+
+.ct-rating a:hover ~ a {
+  opacity: 0.5;
+}
+
+.ct-star.active {
+  color: var(--yellow-500);
+  opacity: 1;
+}

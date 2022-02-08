@@ -74,6 +74,7 @@
             <li><a class="link" href="#lists">Lists</a></li>
             <li><a class="link" href="#nav">Navbar</a></li>
             <li><a class="link" href="#modal">Modal</a></li>
+            <li><a class="link" href="#rating">Rating</a></li>
           </ul>
         </div>
       </section>
@@ -1577,6 +1578,42 @@ Text only card
             </div>
           </div>
         </section>
+
+        <section class="comp-container">
+          <div class="comp-type">
+            <h2 class="comp-title" id="rating">Rating.</h2>
+            <p>
+              Ratings provide insight regarding others' opinions and
+              experiences, and can allow the user to submit a rating of their
+              own.
+            </p>
+
+            <div class="comp-demo">
+              <div class="ct-rating">
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <pre><code class="html">
+&lt;div class="ct-rating">
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+&lt;/div>
+</code></pre>
+            </div>
+          </div>
+
+        
+          </div>
+        </section>
       </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
@@ -1584,6 +1621,7 @@ Text only card
       hljs.highlightAll();
     </script>
     <script src="./components/modal/modal.js"></script>
+    <script src="./components/rating/rating.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
