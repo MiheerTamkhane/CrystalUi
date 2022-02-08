@@ -1554,7 +1554,7 @@ Text only card
             </div>
 
             <div class="comp-code">
-              <pre><code class="html">
+              <pre><code class="html js">
 &lt;button class="ct-btn ct-blue ct-modal-btn" id="modal-btn">
   Launch Demo Modal
 &lt;/button>
@@ -1574,7 +1574,24 @@ Text only card
     &lt;/div>
   &lt;/div>
 &lt;/div>
-</code></pre>
+</code>
+<code>
+JS of component- 
+const modalBtn = document.querySelector("#modal-btn");
+const ctModal = document.querySelector("#ct-modal");
+const ctModalParent = document.querySelector(".ct-modal-dialog");
+const modalClose = document.querySelector(".modal-close");
+const body = document.querySelector("body");
+modalBtn.addEventListener("click", () => {
+  ctModal.classList.add("ct-modal-active");
+  ctModalParent.classList.add("ct-dialog-active");
+});
+modalClose.addEventListener("click", () => {
+  ctModal.classList.remove("ct-modal-active");
+  ctModalParent.classList.remove("ct-dialog-active");
+});
+</code>
+</pre>
             </div>
           </div>
         </section>
@@ -1607,16 +1624,38 @@ Text only card
   &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
   &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
 &lt;/div>
-</code></pre>
+</code>
+<code>
+Js code for component -
+const ctRating = document.querySelector(".ct-rating");
+const ctStar = document.querySelectorAll(".ct-star");
+ctStar.forEach((star, index) => {
+  star.addEventListener("click", (e) => {
+    e.preventDefault();
+    ctRating.classList.add("disabled");
+    // console.log(star, index);
+    ctStar.forEach((newStar, newIndex) => {
+      console.log(newStar, newIndex);
+      if (newIndex <= index) {
+        newStar.classList.add("active");
+      }
+    });
+  });
+});
+</code>
+</pre>
             </div>
           </div>
 
         
           </div>
         </section>
+
+      
       </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
