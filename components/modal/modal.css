@@ -1,0 +1,70 @@
+@import url("/components/root.css");
+@import url("/components/button/button.css");
+.ct-modal {
+  padding: 0 1rem;
+  border: 1px solid var(--gray-500);
+  max-width: 350px;
+  min-width: 350px;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.ct-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--gray-300);
+}
+.modal-close {
+  cursor: pointer;
+}
+
+.ct-modal-body {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--gray-300);
+}
+
+.ct-modal-footer {
+  width: 100%;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+.ct-modal-footer button {
+  margin: 0.25rem;
+}
+
+.ct-modal-action {
+  position: absolute;
+  width: 400px;
+  top: -100px;
+  background-color: var(--body);
+  border: none;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
+  transition: all 250ms ease-in;
+}
+.ct-modal-active {
+  top: 3rem;
+  transition: all 250ms ease-out;
+}
+
+.ct-modal-dialog {
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+}
+.ct-dialog-active {
+  display: flex;
+  top: 0;
+  left: 0;
+}
