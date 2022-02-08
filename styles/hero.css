@@ -84,6 +84,10 @@ code {
 .comp-code code {
   font-size: 1.4rem;
 }
+
+.ct-modal-wrapper {
+  position: relative;
+}
 @media only screen and (max-width: 928px) {
   .sidebar {
     right: -250px;

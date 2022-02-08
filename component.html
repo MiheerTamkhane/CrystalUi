@@ -73,6 +73,8 @@
             <li><a class="link" href="#text-utils">Text Utilities</a></li>
             <li><a class="link" href="#lists">Lists</a></li>
             <li><a class="link" href="#nav">Navbar</a></li>
+            <li><a class="link" href="#modal">Modal</a></li>
+            <li><a class="link" href="#rating">Rating</a></li>
           </ul>
         </div>
       </section>
@@ -1471,12 +1473,193 @@ Text only card
             </div>
           </div>
         </section>
+
+        <section class="comp-container">
+          <div class="comp-type">
+            <h2 class="comp-title" id="modal">Modal</h2>
+            <p>
+              Modals are a variant of dialog used to present critical
+              information or request user input needed to complete a user’s
+              workflow.
+            </p>
+          </div>
+
+          <div class="comp-type">
+            <h2 class="comp-title" id="modal">Demo Modal</h2>
+            <p>Below is a modal body we are Crafted for you.</p>
+
+            <div class="comp-demo">
+              <div class="ct-modal">
+                <div class="ct-modal-header">
+                  <h2>Modal title</h2>
+                  <span class="material-icons">close</span>
+                </div>
+                <div class="ct-modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="ct-modal-footer">
+                  <button class="ct-btn ct-blue">Save</button>
+                  <button class="ct-btn ct-gray">Close</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <pre><code class="html">
+  &lt;div class="ct-modal">
+  &lt;div class="ct-modal-header">
+    &lt;h2>Modal title&lt;/h2>
+    &lt;span class="material-icons">close&lt;/span>
+  &lt;/div>
+  &lt;div class="ct-modal-body">
+    &lt;p>Modal body text goes here.&lt;/p>
+  &lt;/div>
+  &lt;div class="ct-modal-footer">
+    &lt;button class="ct-btn ct-blue">Save&lt;/button>
+    &lt;button class="ct-btn ct-gray">Close&lt;/button>
+  &lt;/div>
+&lt;/div>
+</code></pre>
+            </div>
+          </div>
+
+          <div class="comp-type">
+            <h2 class="comp-title" id="modal">Live Modal</h2>
+            <p>
+              Click on button to watch modal in action. Make sure when you use
+              this modal its position must be absolute to the body.
+            </p>
+
+            <div class="comp-demo">
+              <button class="ct-btn ct-blue" id="modal-btn">
+                Launch Demo Modal
+              </button>
+              <div class="ct-modal-wrapper">
+                <div class="ct-modal-dialog">
+                  <div class="ct-modal ct-modal-action" id="ct-modal">
+                    <div class="ct-modal-header">
+                      <h2>Modal title</h2>
+                      <span class="material-icons ct-modal-close">close</span>
+                    </div>
+                    <div class="ct-modal-body">
+                      <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="ct-modal-footer">
+                      <button class="ct-btn ct-blue">Save</button>
+                      <button class="ct-btn ct-gray">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <pre><code class="html js">
+&lt;button class="ct-btn ct-blue ct-modal-btn" id="modal-btn">
+  Launch Demo Modal
+&lt;/button>
+---------------------------------------------------------- 
+&lt;div class="ct-modal-dialog">
+  &lt;div class="ct-modal ct-modal-action" id="ct-modal">
+    &lt;div class="ct-modal-header">
+      &lt;h2>Modal title&lt;/h2>
+      &lt;span class="material-icons modal-close">close&lt;/span>
+    &lt;/div>
+    &lt;div class="ct-modal-body">
+      &lt;p>Modal body text goes here.&lt;/p>
+    &lt;/div>
+    &lt;div class="ct-modal-footer">
+      &lt;button class="ct-btn ct-blue">Save&lt;/button>
+      &lt;button class="ct-btn ct-gray">Close&lt;/button>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code>
+<code>
+JS of component- 
+const modalBtn = document.querySelector("#modal-btn");
+const ctModal = document.querySelector("#ct-modal");
+const ctModalParent = document.querySelector(".ct-modal-dialog");
+const modalClose = document.querySelector(".modal-close");
+const body = document.querySelector("body");
+modalBtn.addEventListener("click", () => {
+  ctModal.classList.add("ct-modal-active");
+  ctModalParent.classList.add("ct-dialog-active");
+});
+modalClose.addEventListener("click", () => {
+  ctModal.classList.remove("ct-modal-active");
+  ctModalParent.classList.remove("ct-dialog-active");
+});
+</code>
+</pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="comp-container">
+          <div class="comp-type">
+            <h2 class="comp-title" id="rating">Rating.</h2>
+            <p>
+              Ratings provide insight regarding others' opinions and
+              experiences, and can allow the user to submit a rating of their
+              own.
+            </p>
+
+            <div class="comp-demo">
+              <div class="ct-rating">
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+                <a href="" class="ct-star"> <span class="material-icons">grade</span></a>
+              </div>
+            </div>
+
+            <div class="comp-code">
+              <pre><code class="html">
+&lt;div class="ct-rating">
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+  &lt;a class="ct-star"> &lt;span class="material-icons">grade&lt;/span>&lt;/a>
+&lt;/div>
+</code>
+<code>
+Js code for component -
+const ctRating = document.querySelector(".ct-rating");
+const ctStar = document.querySelectorAll(".ct-star");
+ctStar.forEach((star, index) => {
+  star.addEventListener("click", (e) => {
+    e.preventDefault();
+    ctRating.classList.add("disabled");
+    ctStar.forEach((newStar, newIndex) => {
+      console.log(newStar, newIndex);
+      if (newIndex <= index) {
+        newStar.classList.add("active");
+      }
+    });
+  });
+});
+</code>
+</pre>
+            </div>
+          </div>
+
+        
+          </div>
+        </section>
+
+      
       </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
+    <script src="./components/modal/modal.js"></script>
+    <script src="./components/rating/rating.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
