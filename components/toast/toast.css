@@ -1,0 +1,44 @@
+@import url("/components/root.css");
+@import url("/components/button/button.css");
+.ct-toast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  max-width: 35.5rem;
+  min-width: 18rem;
+  padding: 0 1.5rem;
+  border-radius: 2px;
+  background: var(--gray-500);
+  color: var(--body);
+}
+.ct-toast-undo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3rem;
+  max-width: 35.5rem;
+  min-width: 18rem;
+  padding: 0 1.5rem;
+  border-radius: 2px;
+  background: var(--gray-500);
+  color: var(--body);
+  gap: 3rem;
+}
+.ct-toast-undo .ct-undo {
+  color: var(--body);
+  font-weight: 900;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ct-toast-action {
+  position: fixed;
+  bottom: 3rem;
+  right: -50rem;
+  transition: all 250ms ease;
+}
+.ct-toast-active {
+  right: 3rem;
+}
