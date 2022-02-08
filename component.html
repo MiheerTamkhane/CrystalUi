@@ -72,6 +72,7 @@
             <li><a class="link" href="#card">Card</a></li>
             <li><a class="link" href="#text-utils">Text Utilities</a></li>
             <li><a class="link" href="#lists">Lists</a></li>
+            <li><a class="link" href="#nav">Navbar</a></li>
           </ul>
         </div>
       </section>
@@ -1158,18 +1159,17 @@ Text only card
           <div class="comp-type">
             <h2 class="comp-title" id="text-utils">Text Utilities</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for relevant and actionable information. Elements,
-              like text and images, should be placed on them in a way that
-              clearly indicates hierarchy.
+              Text component is the used to render text and paragraphs within an
+              interface. It renders all paragraph, Headings tag by default.
             </p>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title">Text Headings</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for
+              Text Utilities for Headings only, we have six heading types with
+              different font sizes. just add a classes to use
+              <code>ct-h6, ct-h5, ct-h4, ct-h3, ct-h2, ct-h1</code>.
             </p>
             <div class="comp-demo">
               <div class="ct-text-headings">
@@ -1198,8 +1198,10 @@ Text only card
           <div class="comp-type">
             <h2 class="comp-title">Text alignments</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan
+              Three types of text alignments, use
+              <code>ct-text-start</code> class for align text at start,
+              <code>ct-text-center</code> for center,
+              <code>ct-text-end</code> for end.
             </p>
 
             <div class="comp-demo">
@@ -1224,8 +1226,8 @@ Text only card
           <div class="comp-type">
             <h2 class="comp-title">Gray Text</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan
+              Gray text for better reading experience. add
+              <code>ct-text-gray</code> class.
             </p>
 
             <div class="comp-demo">
@@ -1246,16 +1248,17 @@ Text only card
           <div class="comp-type">
             <h2 class="comp-title" id="lists">Lists</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for relevant and actionable information.
+              List component is used to display list items. It renders a
+              unorder-lists by default. But we also have some ordered as well as
+              icons with list also.
             </p>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title" id="lists">Simple lists</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for relevant and actionable information.
+              Simple list components ordered and unorder. use respective
+              classes.
             </p>
             <div class="comp-demo">
               <ul class="ct-ul-list">
@@ -1292,7 +1295,10 @@ Text only card
 
           <div class="comp-type">
             <h2 class="comp-title" id="lists">Icon lists</h2>
-            <p>Cards are boxes that display content and actions.</p>
+            <p>
+              List with icons good to use for better UX to user. add respective
+              classes to ul element.
+            </p>
             <div class="comp-demo">
               <ul class="ct-icon-list">
                 <li><span class="material-icons">check_circle</span>Item</li>
@@ -1316,7 +1322,10 @@ Text only card
 
           <div class="comp-type">
             <h2 class="comp-title" id="lists">Stacked lists</h2>
-            <p>Cards are boxes that display content and actions.</p>
+            <p>
+              Stacked lists are also usefull to display list of users with name,
+              avatar, and status. In that case use our stacked list.
+            </p>
             <div class="comp-demo">
               <ul class="ct-stacked-list">
                 <li>
@@ -1395,16 +1404,18 @@ Text only card
           <div class="comp-type">
             <h2 class="comp-title" id="nav">Navbar</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for
+              Navigation bar is first and most important component of any
+              website. Without navbar user will not know which brand is it,
+              where to look more and to connect with brand.
             </p>
           </div>
 
           <div class="comp-type">
             <h2 class="comp-title" id="lists">Navbar</h2>
             <p>
-              Cards are boxes that display content and actions. They should be
-              easy to scan for
+              We are providing the navbar for e-commerce site you can make
+              changes on your own, for your personal use cases. Make sure to
+              copy and check all the classes are same.
             </p>
             <div class="comp-demo">
               <nav class="nav-bar">
@@ -1414,7 +1425,7 @@ Text only card
                 <div class="ct-right-nav">
                   <div class="nav-searchbar">
                     <input
-                      type="text"
+                      type="search"
                       placeholder="Search..."
                       class="ct-input"
                     />
@@ -1445,7 +1456,7 @@ Text only card
   &lt;nav class="nav-bar">
   &lt;div class="ct-nav-logo"> &lt;h1>Navbar&lt;/h1> &lt;/div>
     &lt;div class="ct-right-nav"> &lt;div class="nav-searchbar">
-        &lt;input type="text" placeholder="Search..." class="ct-input" />
+        &lt;input type="search" placeholder="Search..." class="ct-input" />
         &lt;button class="ct-btn ct-gray">Search&lt;/button>
     &lt;/div>
     &lt;div class="ct-nav-user"> &lt;div class="ct-nav-cart"> &lt;div class="basic-badge">
