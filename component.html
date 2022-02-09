@@ -75,6 +75,7 @@
             <li><a class="link" href="#nav">Navbar</a></li>
             <li><a class="link" href="#modal">Modal</a></li>
             <li><a class="link" href="#rating">Rating</a></li>
+            <li><a class="link" href="#toast">Toast</a></li>
           </ul>
         </div>
       </section>
@@ -1650,7 +1651,152 @@ ctStar.forEach((star, index) => {
           </div>
         </section>
 
-      
+      <section class="comp-container">
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Toast.</h2>
+          <p>
+            Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems.
+          </p>
+        </div>
+
+        <div class="comp-type">
+          <h2 class="comp-title">Simple & Icon toast</h2>
+          <p>
+           Below we have simple toast and toast with icons to use make sure to add classes respectively.
+          </p>
+
+          <div class="comp-demo">
+            <div class="ct-toast">
+              <p>Your draft has been discarded.</p>
+            </div>
+            <div class="ct-toast-undo">
+              <p>Your draft has been archived.</p>
+              <button class="ct-undo">
+                <span class="material-icons">unarchive</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="comp-code">
+            <pre><code class="html">
+&lt;div class="ct-toast">
+  &lt;p>Your draft has been discarded.&lt;/p>
+&lt;/div>
+&lt;div class="ct-toast-undo">
+  &lt;p>Your draft has been archived.&lt;/p>
+  &lt;button class="ct-undo">
+    &lt;span class="material-icons">unarchive&lt;/span>
+  &lt;/button>
+&lt;/div>
+</code></pre>
+          </div>
+        </div>
+
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Toast in action</h2>
+          <p>
+            Make sure to check class names and Javascript file when you are using it in your site.
+          </p>
+
+          <div class="comp-demo">
+            <button class="ct-btn ct-blue" id="ct-toast-btn">Show Toast</button>
+            <div class="ct-toast-undo ct-toast-action">
+            <p>Message has been sent to your Ex.</p>
+            <a id="ct-undo" class="ct-undo">
+            <span class="material-icons">close</span>
+        </a>
+      </div>
+          </div>
+
+
+          <div class="comp-code">
+<pre><code class="html">
+&lt;button class="ct-btn ct-blue" id="ct-toast-btn">Show Toast&lt;/button>
+
+&lt;div class="ct-toast-undo ct-toast-action">
+  &lt;p>Message has been sent to your Ex.&lt;/p>
+  &lt;a id="ct-undo" class="ct-undo">
+  &lt;span class="material-icons">close&lt;/span>
+  &lt;/a>
+&lt;/div> 
+</code>
+<code>
+Js code for component -
+const toastBtn = document.querySelector("#ct-toast-btn");
+const toast = document.querySelector(".ct-toast-action");
+const undoBtn = document.querySelector("#ct-undo");
+toastBtn.addEventListener("click", () => {
+  toast.classList.add("ct-toast-active");
+});
+undoBtn.addEventListener("click", () => {
+  toast.classList.remove("ct-toast-active");
+});
+
+</code>
+</pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="comp-container">
+        <div class="comp-type">
+          <h2 class="comp-title" id="grid">Grids</h2>
+          <p>
+            The CSS Grid Layout Module offers a grid-based layout system, with
+            rows and columns, making it easier to design web pages without having
+            to use floats and positioning.
+          </p>
+        </div>
+  
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Two col grid</h2>
+          <p>
+            The <code>ct-grid</code> class makes the elements display : grid, and
+            the <code>ct-grid-2</code> class adds two columns which takes 50%, 50%
+            width of parent element.
+          </p>
+          <div class="comp-demo">
+            <main class="ct-grid-2 ct-grid">
+              <section class="ct-child-1 ct-child">Col-1</section>
+              <section class="ct-child-2 ct-child">Col-2</section>
+            </main>
+          </div>
+          <div class="comp-code">
+            <pre><code class="html">
+&lt;main class="ct-grid-2 ct-grid">
+  &lt;section class="ct-child-1 ct-child">Col-1&lt;/section>
+  &lt;section class="ct-child-2 ct-child">Col-2&lt;/section>
+&lt;/main>
+</code></pre>
+          </div>
+        </div>
+  
+        <div class="comp-type">
+          <h2 class="comp-title" id="toast">Three col grid</h2>
+          <p>
+            The <code>ct-grid</code> class makes the elements display : grid, and
+            the <code>ct-grid-3</code> class adds three columns which takes equal
+            width of parent element.
+          </p>
+          <div class="comp-demo">
+            <main class="ct-grid-3 ct-grid">
+              <section class="ct-child-1 ct-child">Col-1</section>
+              <section class="ct-child-2 ct-child">Col-2</section>
+              <section class="ct-child-3 ct-child">Col-3</section>
+            </main>
+          </div>
+          <div class="comp-code">
+<pre><code class="html">
+&lt;main class="ct-grid-3 ct-grid">
+  &lt;section class="ct-child-1 ct-child">Col-1&lt;/section>
+  &lt;section class="ct-child-2 ct-child">Col-2&lt;/section>
+  &lt;section class="ct-child-3 ct-child">Col-3&lt;/section>
+&lt;/main>
+</code></pre>
+          </div>
+        </div>
+      </section>
+
       </section>
     </main>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
@@ -1660,6 +1806,7 @@ ctStar.forEach((star, index) => {
     </script>
     <script src="./components/modal/modal.js"></script>
     <script src="./components/rating/rating.js"></script>
+    <script src="./components/toast/toast.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
