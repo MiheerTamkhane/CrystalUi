@@ -39,7 +39,7 @@
   padding: 0.8rem;
 }
 
-.comp-container {
+section.comp-container {
   margin-top: 12rem;
 }
 
@@ -88,6 +88,7 @@ code {
 .ct-modal-wrapper {
   position: relative;
 }
+
 @media only screen and (max-width: 928px) {
   .sidebar {
     right: -250px;

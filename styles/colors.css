@@ -1,0 +1,126 @@
+/* Colors of crystal ui styles below */
+.ct-colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.color-box {
+  font-size: 1.4rem;
+  width: 90px;
+  height: 90px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: #e7e7e7;
+}
+
+/* Give colors explicitly coz the dark mode is giving problem here  */
+.ct-primary {
+  background: #00adb5;
+}
+.ct-text {
+  background: #393e46;
+}
+.ct-heading {
+  background: #222831;
+}
+.ct-body {
+  background: #f9f9f9;
+  color: #222831;
+}
+
+/* Gray color pallete  */
+.ct-gray-100 {
+  background: var(--gray-100);
+  color: var(--gray-900);
+}
+.ct-gray-300 {
+  background: var(--gray-300);
+  color: var(--gray-900);
+}
+.ct-gray-500 {
+  background: var(--gray-500);
+  color: var(--gray-900);
+}
+.ct-gray-700 {
+  background: var(--gray-700);
+  color: var(--gray-100);
+}
+.ct-gray-900 {
+  background: var(--gray-900);
+  color: var(--gray-100);
+}
+
+/* Violet color pallete */
+.ct-violet-300 {
+  color: var(--gray-900);
+  background-color: var(--violet-300);
+}
+.ct-violet-500 {
+  background-color: var(--violet-500);
+}
+.ct-violet-700 {
+  background-color: var(--violet-700);
+}
+
+/* Indigo color palletes */
+.ct-indigo-300 {
+  color: var(--gray-900);
+  background-color: var(--indigo-300);
+}
+.ct-indigo-500 {
+  background-color: var(--indigo-500);
+}
+.ct-indigo-700 {
+  background-color: var(--indigo-700);
+}
+/* blue color palletes */
+.ct-blue-300 {
+  color: var(--gray-900);
+  background-color: var(--blue-300);
+}
+.ct-blue-500 {
+  background-color: var(--blue-500);
+}
+.ct-blue-700 {
+  background-color: var(--blue-700);
+}
+/* green color palletes */
+.ct-green-300 {
+  color: var(--gray-900);
+  background-color: var(--green-300);
+}
+.ct-green-500 {
+  background-color: var(--green-500);
+}
+.ct-green-700 {
+  background-color: var(--green-700);
+}
+/* yellow color palletes */
+.ct-yellow-300 {
+  color: var(--gray-900);
+  background-color: var(--yellow-300);
+}
+.ct-yellow-500 {
+  background-color: var(--yellow-500);
+}
+.ct-yellow-700 {
+  background-color: var(--yellow-700);
+}
+/* red color palletes */
+.ct-red-300 {
+  color: var(--gray-900);
+  background-color: var(--red-300);
+}
+.ct-red-500 {
+  background-color: var(--red-500);
+}
+.ct-red-700 {
+  background-color: var(--red-700);
+}
