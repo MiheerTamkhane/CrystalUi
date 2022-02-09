@@ -6,7 +6,7 @@
   --body: #f9f9f9;
 
   /* Default color VIBGYOR */
-  --gray-100: #ffffff;
+  --gray-100: #efefef;
   --gray-300: #d1d5db;
   --gray-500: #6b7280;
   --gray-700: #374151;
@@ -28,9 +28,9 @@
   --green-500: #38a169;
   --green-700: #15803d;
 
-  --yellow-300: #fde047;
-  --yellow-500: #eab308;
-  --yellow-700: #a16207;
+  --yellow-300: #fff1ac;
+  --yellow-500: #f59e0b;
+  --yellow-700: #b45309;
 
   --orange-300: #feebc8;
   --orange-500: #dd6b20;
