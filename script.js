@@ -1,5 +1,4 @@
 let dark = localStorage.getItem("dark");
-// const body = document.querySelector("body");
 const navbar = document.querySelector(".nav-container");
 const darkLight = document.querySelector(".dark-light");
 const sidebar = document.querySelector(".sidebar");
