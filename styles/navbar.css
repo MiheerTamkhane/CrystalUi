@@ -1,10 +1,10 @@
-/* @import url("/reset.css"); */
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("./root.css");
+
 .nav-container {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 80px;
   width: 100vw;
   background: var(--body);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -32,6 +32,7 @@
   letter-spacing: 0.05em;
   color: var(--primary);
   padding: 0rem 1.2rem;
+  text-decoration: none;
 }
 .nav-logo:hover {
   color: var(--primary);
@@ -92,7 +93,7 @@
 }
 .sun {
   font-size: 3.6rem;
-  color: #f7f7f7;
+  color: var(--gray-100);
 }
 @media only screen and (max-width: 928px) {
   .nav-container .navbar {

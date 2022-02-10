@@ -14,7 +14,7 @@
   padding: 0 0.4rem;
   border-radius: 50%;
   background: var(--blue-300);
-  color: var(--gray-500);
+  color: var(--gray-700);
 }
 .large-badge {
   max-width: max-content;
@@ -30,7 +30,7 @@
   padding: 0 0.5rem;
   border-radius: 50%;
   background: var(--blue-300);
-  color: var(--gray-500);
+  color: var(--gray-700);
 }
 .ct-red {
   background: var(--red-300);
@@ -48,8 +48,8 @@
 .btn-badge {
   border: none;
   padding: 0.5rem 1.2rem;
-  background: #626262;
-  color: white;
+  background: var(--gray-500);
+  color: var(--gray-100);
   cursor: pointer;
   border-radius: 5px;
 }
@@ -63,14 +63,13 @@
 }
 .ct-avatar-badge {
   position: relative;
-  border: 1px slateblue solid;
 }
 .plane-badge {
   position: absolute;
   bottom: 0px;
   right: 0px;
   padding: 10px;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--gray-100);
   border-radius: 50%;
   background-color: var(--red-500);
 }
