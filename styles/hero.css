@@ -6,7 +6,7 @@
   font-size: 1.8rem;
   font-family: "Lato", sans-serif;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 8rem;
   position: relative;
 }
 
@@ -45,7 +45,7 @@ section.comp-container {
 
 .comp-docs {
   position: absolute;
-  padding: 2rem;
+  padding: 1.8rem;
   left: 250px;
 }
 .comp-type {
@@ -55,7 +55,7 @@ section.comp-container {
 
 .comp-title {
   margin: 1rem 0;
-  scroll-margin-top: 13rem;
+  scroll-margin-top: 10.5rem;
 }
 
 .comp-demo {

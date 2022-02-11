@@ -22,7 +22,7 @@
 
 /* Give colors explicitly coz the dark mode is giving problem here  */
 .ct-primary {
-  background: #00adb5;
+  background: #02bfc9;
 }
 .ct-text {
   background: #393e46;
@@ -33,6 +33,7 @@
 .ct-body {
   background: #f9f9f9;
   color: #222831;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /* Gray color pallete  */
