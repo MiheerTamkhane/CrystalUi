@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 :root {
-  /* color theme of lib  */
-  /* --heading: #222831;
-  --text: #393e46;
-  --primary: #02bfc9;
-  --body: #f9f9f9; */
-
   /* Default color VIBGYOR */
   --gray-100: #efefef;
   --gray-300: #d1d5db;
