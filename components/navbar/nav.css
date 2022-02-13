@@ -29,12 +29,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.ct-nav-signin {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 1rem;
-}
+
 .nav-searchbar {
   display: flex;
   flex-wrap: wrap;
