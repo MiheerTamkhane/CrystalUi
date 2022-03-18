@@ -1,4 +1,4 @@
-@import url("/components/root.css");
+@import url("/styles/root.css");
 @import url("/components/button/button.css");
 .ct-modal {
   padding: 0 1rem;
