@@ -1,4 +1,4 @@
-@import url("/style.css");
+@import url("/styles/root.css");
 
 .ct-text-headings > * {
   border-bottom: 1px solid var(--gray-300);
