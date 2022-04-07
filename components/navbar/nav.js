@@ -1,9 +1,9 @@
-const hamburger = document.querySelector(".ct-nav-hamburger");
+const navHamburger = document.querySelector(".ct-nav-hamburger");
 const ctNavSidebar = document.querySelector(".ct-nav-sidebar");
 const ctUserAcc = document.querySelector(".ct-nav-account");
 const person = document.querySelector(".person");
 let temp = false;
-hamburger.addEventListener("click", () => {
+navHamburger.addEventListener("click", () => {
   if (temp) {
     ctNavSidebar.classList.add("show");
     temp = false;
