@@ -1563,8 +1563,37 @@ Text only card
               changes on your own, for your personal use cases. Make sure to
               copy and check all the classes are same.
             </p>
-            <div class="comp-demo">
+            <div class="comp-demo ct-nav-mobile">
+              <ul class="ct-stacked-list ct-nav-sidebar show">
+                <li>
+                  <div class="ct-list-item"><h4>Link 1</h4></div>
+                </li>
+                <li>
+                  <div class="ct-list-item"><h4>Link 2</h4></div>
+                </li>
+                <li>
+                  <div class="ct-list-item"><h4>Link 3</h4></div>
+                  </li>
+                <li>
+                  <div class="ct-list-item"><h4>Link 4</h4></div>
+                  </li>
+                <li>
+                  <div class="ct-list-item"><h4>Link 5</h4></div>
+                  </li>
+              </ul>
+              <ul class="ct-stacked-list ct-mobile ct-nav-account show">
+                <li>
+                  <div class="ct-list-item"><h4>Link 1</h4></div>
+                </li>
+                <li>
+                  <div class="ct-list-item"><h4>Link 2</h4></div>
+                </li>
+              </ul>
+
               <nav class="nav-bar">
+                <div class="ct-mobile">
+                  <span class="material-icons ct-nav-hamburger">menu</span>
+                </div>
                 <div class="ct-nav-logo">
                   <h1>Navbar</h1>
                 </div>
@@ -1591,9 +1620,16 @@ Text only card
                       </div>
                       Sign in
                     </div>
+                    <div class="ct-nav-icons ct-mobile">
+                      <span class="material-icons ct-mobile person">person</span>
+                    </div>
                   </div>
                 </div>
               </nav>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptate dolor sint, id itaque atque odit maxime voluptatibus aut autem dolore eaque eum laudantium nihil molestias ducimus labore expedita exercitationem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat, sunt cumque possimus voluptas unde laborum aperiam, ab aliquid, amet saepe. Ratione enim rerum praesentium reiciendis, dolor impedit harum dolores.
+              </div>
             </div>
 
             <div class="comp-code">
@@ -1946,6 +1982,7 @@ undoBtn.addEventListener("click", () => {
     <script>
       hljs.highlightAll();
     </script>
+    <script src="./components//navbar//nav.js"> </script>
     <script src="./components/modal/modal.js"></script>
     <script src="./components/rating/rating.js"></script>
     <script src="./components/toast/toast.js"></script>

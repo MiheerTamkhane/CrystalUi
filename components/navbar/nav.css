@@ -36,3 +36,46 @@
   gap: 1rem;
   margin-right: 2rem;
 }
+.ct-mobile {
+  display: none;
+  cursor: pointer;
+}
+
+.ct-nav-sidebar {
+  display: none;
+}
+@media only screen and (max-width: 620px) {
+  .nav-searchbar {
+    display: none;
+  }
+  .ct-nav-icons {
+    display: none;
+  }
+  .ct-mobile {
+    display: flex;
+  }
+  .ct-nav-mobile {
+    position: relative;
+    padding: 0.5rem;
+  }
+  .ct-nav-sidebar {
+    background-color: var(--gray-300);
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+  }
+  .ct-nav-sidebar.show {
+    left: 5px;
+    display: block;
+  }
+  .ct-nav-account {
+    background-color: var(--gray-300);
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+  }
+  .ct-nav-account.show {
+    display: block;
+    right: 5px;
+  }
+}
