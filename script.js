@@ -4,6 +4,12 @@ const darkLight = document.querySelector(".dark-light");
 const sidebar = document.querySelector(".sidebar");
 const hamburger = document.querySelector(".hamburger");
 const closeBtn = document.querySelector(".close-btn");
+const allLinks = document.querySelectorAll(".sidebar-link");
+allLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    link.classList.add("link-active");
+  });
+});
 
 //sidebar toggle js.
 hamburger.addEventListener("click", () => {

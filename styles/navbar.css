@@ -53,9 +53,18 @@
 .link:hover {
   color: var(--primary);
 }
-
+.link-active {
+  color: var(--primary);
+}
 .nav-div {
   display: flex;
+}
+
+.ct-btn.floating-btn {
+  position: fixed;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  background: transparent;
 }
 
 /* DARK LIGHT MODE CLASSES BELOW  */
