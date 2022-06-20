@@ -1815,7 +1815,6 @@ ctStar.forEach((star, index) => {
     e.preventDefault();
     ctRating.classList.add("disabled");
     ctStar.forEach((newStar, newIndex) => {
-      console.log(newStar, newIndex);
       if (newIndex <= index) {
         newStar.classList.add("active");
       }
