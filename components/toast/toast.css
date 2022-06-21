@@ -36,10 +36,11 @@
 
 .ct-toast-action {
   position: fixed;
-  bottom: 3rem;
+  bottom: 7rem;
   right: -50rem;
   transition: all 250ms ease;
 }
 .ct-toast-active {
   right: 3rem;
+  z-index: 99;
 }
