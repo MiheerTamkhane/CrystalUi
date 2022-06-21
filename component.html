@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./components.css" />
   </head>
   <body>
+  
     <header class="nav-container">
       <nav class="navbar">
         <a href="/index.html" class="nav-logo">CrystalUi</a>
@@ -56,28 +57,28 @@
         <div class="side-div">
           <h2>Get Started</h2>
           <ul class="comp-list">
-            <li><a class="link" href="#intro">Introduction</a></li>
-            <li><a class="link" href="#colors">Colors</a></li>
+            <li><a class="link sidebar-link" data-link="intro" href="#intro">Introduction</a></li>
+            <li><a class="link sidebar-link" data-link="colors" href="#colors">Colors</a></li>
           </ul>
         </div>
         <div class="side-div">
           <h2>Components</h2>
           <ul class="comp-list">
-            <li><a class="link" href="#avatar">Avatar</a></li>
-            <li><a class="link" href="#alert">Alert</a></li>
-            <li><a class="link" href="#badge">Badge</a></li>
-            <li><a class="link" href="#button">Button</a></li>
-            <li><a class="link" href="#input">Input</a></li>
-            <li><a class="link" href="#image">Image</a></li>
-            <li><a class="link" href="#card">Card</a></li>
-            <li><a class="link" href="#text-utils">Text Utilities</a></li>
-            <li><a class="link" href="#lists">Lists</a></li>
-            <li><a class="link" href="#nav">Navbar</a></li>
-            <li><a class="link" href="#modal">Modal</a></li>
-            <li><a class="link" href="#rating">Rating</a></li>
-            <li><a class="link" href="#toast">Toast</a></li>
-            <li><a class="link" href="#grid">Grid</a></li>
-            <li><a class="link" href="#slider">Slider</a></li>
+            <li><a class="link sidebar-link" data-link="avatar" href="#avatar">Avatar</a></li>
+            <li><a class="link sidebar-link" data-link="alert" href="#alert">Alert</a></li>
+            <li><a class="link sidebar-link" data-link="badge" href="#badge">Badge</a></li>
+            <li><a class="link sidebar-link" data-link="button" href="#button">Button</a></li>
+            <li><a class="link sidebar-link" data-link="input" href="#input">Input</a></li>
+            <li><a class="link sidebar-link" data-link="image" href="#image">Image</a></li>
+            <li><a class="link sidebar-link" data-link="card" href="#card">Card</a></li>
+            <li><a class="link sidebar-link" data-link="text-utils" href="#text-utils">Text Utilities</a></li>
+            <li><a class="link sidebar-link" data-link="lists" href="#lists">Lists</a></li>
+            <li><a class="link sidebar-link" data-link="nav" href="#nav">Navbar</a></li>
+            <li><a class="link sidebar-link" data-link="modal" href="#modal">Modal</a></li>
+            <li><a class="link sidebar-link" data-link="rating" href="#rating">Rating</a></li>
+            <li><a class="link sidebar-link" data-link="toast" href="#toast">Toast</a></li>
+            <li><a class="link sidebar-link" data-link="grid" href="#grid">Grid</a></li>
+            <li><a class="link sidebar-link" data-link="slider" href="#slider">Slider</a></li>
           </ul>
         </div>
       </section>
@@ -1814,7 +1815,6 @@ ctStar.forEach((star, index) => {
     e.preventDefault();
     ctRating.classList.add("disabled");
     ctStar.forEach((newStar, newIndex) => {
-      console.log(newStar, newIndex);
       if (newIndex <= index) {
         newStar.classList.add("active");
       }
@@ -2049,7 +2049,11 @@ undoBtn.addEventListener("click", () => {
   
       </section>
       </section>
+      
     </main>
+    <button class="ct-btn floating-btn">
+      <a class="material-icons ct-float link" href="#intro">north</a>
+    </button>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
     <script>
@@ -2061,5 +2065,6 @@ undoBtn.addEventListener("click", () => {
     <script src="./components/toast/toast.js"></script>
     <script src="./components/slider//slider.js"></script>
     <script src="./script.js"></script>
+    <script src="./sidebar.js"></script>
   </body>
 </html>
